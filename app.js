@@ -1,20 +1,15 @@
 const DATA_URL = "./data/venues.json";
 const $ = (selector) => document.querySelector(selector);
 let data, map, markers = new Map(), activeId = null;
-const geocodeCacheKey = "lvp-geocode-v1";
 
-function escapeHtml(value="") {
+function escapeHtml(value = "") {
   return String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 function instagramUrl(handle) { return `https://www.instagram.com/${encodeURIComponent(handle)}/`; }
-function setCounts() {
-  $("#verified-count").textContent = `${data.verified_venues.length} MAPPED`;
-  $("#suggestion-count").textContent = `${data.suggestions.length} TO CHECK`;
-}
 function allEntries() {
   return [
     ...data.verified_venues.map(v => ({...v, listType:"mapped"})),
-    ...data.suggestions.map(v => ({...v, listType:"pending"}))
+    ...data.suggestions.map(v => ({...v, listType:"account"}))
   ];
 }
 function visibleEntries() {
@@ -23,32 +18,36 @@ function visibleEntries() {
   const status = $("#status-filter").value;
   return allEntries().filter(v => {
     if (status === "mapped" && v.listType !== "mapped") return false;
-    if (status === "pending" && v.listType !== "pending") return false;
+    if (status === "accounts" && v.listType !== "account") return false;
     if (region !== "all" && v.region !== region) return false;
     const haystack = [v.name, v.address, v.neighbourhood, v.instagram, v.region].filter(Boolean).join(" ").toLowerCase();
     return !q || haystack.includes(q);
   });
 }
+function syncMarkers(entries) {
+  const visibleIds = new Set(entries.filter(v => v.listType === "mapped").map(v => v.id));
+  markers.forEach((marker, id) => {
+    if (visibleIds.has(id)) marker.addTo(map);
+    else map.removeLayer(marker);
+  });
+}
 function renderList() {
   const entries = visibleEntries();
-  const pendingMode = $("#status-filter").value === "pending";
-  $("#list-title").textContent = pendingMode ? "ACCOUNTS TO CHECK" : $("#status-filter").value === "all" ? "ALL ENTRIES" : "MAPPED PLACES";
+  const mode = $("#status-filter").value;
+  $("#list-title").textContent = mode === "mapped" ? "PLACES WITH MAP PINS" : mode === "accounts" ? "INSTAGRAM ACCOUNTS" : "ALL ENTRIES";
   $("#result-count").textContent = entries.length;
   const list = $("#venue-list");
-  if (!entries.length) {
-    list.innerHTML = '<div class="empty">Nothing matches that search.</div>';
-    return;
-  }
-  list.innerHTML = entries.map(v => {
-    const isPending = v.listType === "pending";
+  if (!entries.length) list.innerHTML = '<div class="empty">Nothing matches that search.</div>';
+  else list.innerHTML = entries.map(v => {
+    const isAccount = v.listType === "account";
     const name = v.name || `@${v.instagram}`;
-    const sub = isPending ? `${v.region} · @${v.instagram}` : `${v.neighbourhood || v.region} · ${v.vegan_status}`;
-    const links = isPending
+    const sub = isAccount ? `${v.region} · Instagram account` : `${v.neighbourhood || v.region} · ${v.vegan_status}`;
+    const links = isAccount
       ? `<a href="${instagramUrl(v.instagram)}" target="_blank" rel="noopener noreferrer">OPEN INSTAGRAM ↗</a>`
       : `<a href="${instagramUrl(v.instagram)}" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>${v.website ? `<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a>` : ""}`;
     return `<article class="venue-card ${activeId===v.id?"selected":""}" tabindex="0" data-id="${escapeHtml(v.id)}">
-      <div class="card-top"><div><h3>${escapeHtml(name)}</h3><p>${escapeHtml(sub)}</p></div><span class="tag">${isPending?"TO CHECK":"VERIFIED"}</span></div>
-      ${!isPending ? `<p style="margin-top:7px">${escapeHtml(v.address)}</p>` : ""}
+      <div class="card-top"><div><h3>${escapeHtml(name)}</h3><p>${escapeHtml(sub)}</p></div><span class="tag">${isAccount?"ACCOUNT":"MAPPED"}</span></div>
+      ${!isAccount ? `<p class="card-address">${escapeHtml(v.address)}</p>` : ""}
       <div class="card-links">${links}</div>
     </article>`;
   }).join("");
@@ -57,87 +56,73 @@ function renderList() {
     card.addEventListener("click", e => { if (!e.target.closest("a")) activate(); });
     card.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); activate(); }});
   });
+  if (map) syncMarkers(entries);
 }
 function selectEntry(id) {
   activeId = id;
-  const v = data.verified_venues.find(x => x.id === id);
-  if (v && markers.has(id)) {
+  const venue = data.verified_venues.find(v => v.id === id);
+  if (venue && markers.has(id)) {
     const marker = markers.get(id);
+    marker.addTo(map);
     map.setView(marker.getLatLng(), Math.max(map.getZoom(), 15), {animate:true});
     marker.openPopup();
   }
   renderList();
 }
-function loadCache() {
-  try { return JSON.parse(localStorage.getItem(geocodeCacheKey) || "{}"); } catch { return {}; }
+function makePopup(venue) {
+  const sourceLinks = (venue.source_urls || []).map(url => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">source</a>`).join(" · ");
+  return `<div class="popup-title">${escapeHtml(venue.name)}</div>
+    <div>${escapeHtml(venue.address)}</div>
+    <div class="popup-muted">${escapeHtml(venue.vegan_status)} · ${escapeHtml(venue.category)}</div>
+    <p>${escapeHtml(venue.verification_note || "")}</p>
+    <div><a href="${instagramUrl(venue.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>${venue.website ? ` · <a href="${escapeHtml(venue.website)}" target="_blank" rel="noopener noreferrer">Website ↗</a>` : ""}</div>
+    <small>${sourceLinks}</small>
+    <p class="popup-disclaimer">Guide only — please check details with the venue before visiting.</p>`;
 }
-function saveCache(cache) {
-  try { localStorage.setItem(geocodeCacheKey, JSON.stringify(cache)); } catch {}
-}
-const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
-
-async function geocodeAddress(address, cache) {
-  if (cache[address]) return cache[address];
-  // Nominatim public service: sequential, throttled requests; cache successful lookups locally.
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&country=United%20Kingdom&q=${encodeURIComponent(address)}`;
-  try {
-    const response = await fetch(url, {headers: {"Accept":"application/json"}});
-    if (!response.ok) throw new Error(`Geocoder returned ${response.status}`);
-    const results = await response.json();
-    if (results.length) {
-      cache[address] = [Number(results[0].lat), Number(results[0].lon)];
-      saveCache(cache);
-      return cache[address];
-    }
-  } catch (err) {
-    console.warn("Could not locate address:", address, err);
-  }
-  return null;
-}
-async function buildMarkers() {
-  const cache = loadCache();
+function buildMarkers() {
   let located = 0;
-  for (const venue of data.verified_venues) {
-    const coords = await geocodeAddress(venue.address, cache);
-    if (coords) {
-      const [lat, lon] = coords;
-      const marker = L.circleMarker([lat, lon], {
-        radius:7, color:"#fff", weight:2, fillColor:"#111", fillOpacity:1
-      });
-      const sourceLinks = (venue.source_urls || []).map(url => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">source</a>`).join(" · ");
-      marker.bindPopup(`<div class="popup-title">${escapeHtml(venue.name)}</div><div>${escapeHtml(venue.address)}</div><div class="popup-muted">${escapeHtml(venue.vegan_status)} · ${escapeHtml(venue.category)}</div><p>${escapeHtml(venue.verification_note || "")}</p><div><a href="${instagramUrl(venue.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>${venue.website ? ` · <a href="${escapeHtml(venue.website)}" target="_blank" rel="noopener noreferrer">Website ↗</a>` : ""}</div><small>${sourceLinks}</small>`);
-      marker.addTo(map);
-      markers.set(venue.id, marker);
-      marker.on("click", () => { activeId = venue.id; renderList(); });
-      located++;
-    }
-    $("#map-status").textContent = `${located} / ${data.verified_venues.length} LOCATIONS FOUND`;
-    await wait(1100);
-  }
+  data.verified_venues.forEach(venue => {
+    if (!Number.isFinite(venue.lat) || !Number.isFinite(venue.lng)) return;
+    const marker = L.circleMarker([venue.lat, venue.lng], {
+      radius:8, color:"#fff", weight:2, fillColor:"#111", fillOpacity:1
+    });
+    marker.bindPopup(makePopup(venue));
+    marker.on("click", () => { activeId = venue.id; renderList(); });
+    markers.set(venue.id, marker);
+    located++;
+  });
   if (located) {
     const group = L.featureGroup([...markers.values()]);
-    map.fitBounds(group.getBounds().pad(0.16), {maxZoom:13});
+    group.addTo(map);
+    map.fitBounds(group.getBounds().pad(0.18), {maxZoom:13});
+    $("#map-status").textContent = `${located} MAP PINS`;
   } else {
-    $("#map-status").textContent = "ADDRESSES COULD NOT BE LOCATED";
+    $("#map-status").textContent = "NO MAP COORDINATES AVAILABLE";
   }
 }
 async function init() {
-  const response = await fetch(DATA_URL);
-  if (!response.ok) throw new Error("Could not load venue data");
+  if (!window.L) throw new Error("Leaflet did not load. Check the map library connection.");
+  const response = await fetch(DATA_URL, {cache:"no-cache"});
+  if (!response.ok) throw new Error(`Could not load venue data (${response.status}). Check the data folder is deployed alongside index.html.`);
   data = await response.json();
-  setCounts();
+  if (!Array.isArray(data.verified_venues) || !Array.isArray(data.suggestions)) throw new Error("Venue data has an unexpected format.");
+  $("#verified-count").textContent = `${data.verified_venues.length} MAPPED`;
+  $("#suggestion-count").textContent = `${data.suggestions.length} LISTED ACCOUNTS`;
   map = L.map("map", {scrollWheelZoom:false}).setView([51.5074,-0.1278], 11);
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
-  $("#search").addEventListener("input", renderList);
-  $("#region-filter").addEventListener("change", renderList);
-  $("#status-filter").addEventListener("change", renderList);
-  renderList();
   buildMarkers();
+  ["#search", "#region-filter", "#status-filter"].forEach(selector => {
+    $(selector).addEventListener(selector === "#search" ? "input" : "change", renderList);
+  });
+  renderList();
+  setTimeout(() => map.invalidateSize(), 100);
 }
 init().catch(err => {
-  console.error(err);
-  $("#map-status").textContent = "COULD NOT LOAD MAP DATA";
-  $("#venue-list").innerHTML = '<div class="empty">The directory data could not be loaded. Check that the project files are in the repository root.</div>';
+  console.error("London Vegan Places failed to initialise:", err);
+  const status = $("#map-status");
+  if (status) status.textContent = "MAP COULD NOT LOAD — SEE ERROR DETAILS";
+  const list = $("#venue-list");
+  if (list) list.innerHTML = `<div class="empty">${escapeHtml(err.message)}. Try refreshing the page. If the problem continues, check the browser console.</div>`;
 });

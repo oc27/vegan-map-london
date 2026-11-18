@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="A community-built map of vegan and vegan-friendly places across London.">
+  <meta name="description" content="A community-maintained guide to vegan and vegan-friendly places across London. Please check details directly with each venue before visiting.">
   <title>London Vegan Places</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" href="./styles.css">
@@ -12,14 +12,15 @@
 <body>
   <header class="site-header">
     <a class="wordmark" href="./" aria-label="London Vegan Places home">LONDON VEGAN PLACES<span> / MAP & DIRECTORY</span></a>
-    <div class="header-meta"><span id="verified-count">0 MAPPED</span><span id="suggestion-count">0 TO CHECK</span></div>
+    <div class="header-meta"><span id="verified-count">0 MAPPED</span><span id="suggestion-count">0 LISTED ACCOUNTS</span></div>
   </header>
 
   <main>
     <section class="intro">
       <p class="eyebrow">A LIVING DIRECTORY · LONDON</p>
       <h1>Good food.<br><span>Good places.</span></h1>
-      <p class="intro-copy">A growing map of vegan and vegan-friendly places around London. Built from local knowledge, checked as we go.</p>
+      <p class="intro-copy">A growing, community-maintained guide to vegan and vegan-friendly places around London. Explore, share and help keep it up to date.</p>
+      <div class="accuracy-notice"><strong>A NOTE ON ACCURACY</strong><p>This is a community-maintained guide, not an independently verified directory. Businesses, addresses, opening hours and vegan options may change. Please check details directly with each venue before visiting. We welcome corrections and updates from the community.</p></div>
     </section>
 
     <section class="workspace" aria-label="Map and venue directory">
@@ -34,22 +35,22 @@
             <option value="all">All London</option>
             <option>East</option><option>North</option><option>Central</option><option>South</option><option>West</option>
           </select>
-          <label for="status-filter">LIST</label>
+          <label for="status-filter">SHOW</label>
           <select id="status-filter">
-            <option value="mapped">Mapped places</option>
-            <option value="pending">Accounts to check</option>
-            <option value="all">Everything</option>
+            <option value="all">All entries</option>
+            <option value="mapped">Places with map pins</option>
+            <option value="accounts">Instagram accounts</option>
           </select>
         </div>
         <div class="list-heading">
-          <h2 id="list-title">MAPPED PLACES</h2>
+          <h2 id="list-title">ALL ENTRIES</h2>
           <span id="result-count">0</span>
         </div>
         <div id="venue-list" class="venue-list" aria-live="polite"></div>
         <div class="method-note">
-          <strong>HOW THIS MAP WORKS</strong>
-          <p>Only venues with a checked address and current first-party evidence appear as pins. Instagram accounts awaiting checks are kept in the review list, not shown as confirmed places.</p>
-          <a href="#about">Read the verification notes ↓</a>
+          <strong>ABOUT THE MAP PINS</strong>
+          <p>Places with an address and approximate map coordinates are shown as pins. Other community-listed accounts remain in the directory until a location can be added. A pin is a guide only, not a guarantee that details are current.</p>
+          <a href="#about">More about this project ↓</a>
         </div>
       </aside>
       <section class="map-panel" aria-label="London map">
@@ -57,8 +58,8 @@
           <span>INTERACTIVE MAP</span>
           <span id="map-status" aria-live="polite">Loading map…</span>
         </div>
-        <div id="map" role="application" aria-label="Map of verified vegan venues in London"></div>
-        <div class="map-legend"><span class="dot"></span> VERIFIED ADDRESS <span class="legend-pending">Pending accounts are not pinned</span></div>
+        <div id="map" role="application" aria-label="Map of vegan and vegan-friendly places in London"></div>
+        <div class="map-legend"><span class="dot"></span> MAPPED PLACE <span class="legend-pending">Approximate positions · not every directory entry has a pin yet</span></div>
       </section>
     </section>
 
@@ -66,10 +67,10 @@
       <p class="eyebrow">OPEN DATA · COMMUNITY MAINTAINED</p>
       <h2>A directory that gets better<br>when people contribute.</h2>
       <div class="about-grid">
-        <p>This first edition starts with 43 Instagram accounts supplied as a seed list. The list is deliberately wider than the map: some places still need their current trading status, exact address or vegan credentials checked.</p>
-        <p>Found a mistake, closure, new branch or missing place? Use the venue’s Instagram or website to check details, then contribute an update through the project repository. A future version can add a public submission and moderation flow.</p>
+        <p>This project starts with a community seed list of London food businesses and Instagram accounts. It is intended as a useful starting point for discovering places, not as an endorsement or a guarantee of current details.</p>
+        <p>Found a mistake, closure, new branch or missing place? Please check details directly with the venue before travelling, and contribute corrections or additions through the project repository. We want this guide to grow through shared local knowledge.</p>
       </div>
-      <p class="smallprint">Map data © OpenStreetMap contributors. Map tiles and geocoding are provided by OpenStreetMap services. Venue details are a snapshot and can change; check with a venue before travelling.</p>
+      <p class="smallprint">Map data © OpenStreetMap contributors. Map tiles are provided by OpenStreetMap. Venue details and map positions are a snapshot and may be approximate or out of date. Please check with each venue before visiting.</p>
     </section>
   </main>
 

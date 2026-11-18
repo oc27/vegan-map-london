@@ -12,6 +12,11 @@ main{max-width:1600px;margin:auto;padding:0 4vw}
 h1{font-size:clamp(42px,6.5vw,84px);line-height:.99;letter-spacing:-.09em;margin:0;font-weight:600}
 h1 span{color:#8b8b8b}
 .intro-copy{max-width:490px;color:#555;margin:22px 0 0;font-size:14px}
+.accuracy-notice{max-width:720px;margin-top:24px;padding:15px 17px;border:1px solid #bdbdbd;background:#fafafa}
+.accuracy-notice strong{font-size:10px;letter-spacing:.1em}
+.accuracy-notice p{margin:7px 0 0;color:#444;font-size:11px}
+.card-address{margin-top:7px!important;color:#555!important}
+.popup-disclaimer{border-top:1px solid #ddd;padding-top:7px;font-size:10px;color:#555}
 .workspace{display:grid;grid-template-columns:minmax(310px,390px) minmax(0,1fr);border:1px solid var(--line);min-height:650px}
 .directory{display:flex;flex-direction:column;min-height:650px;border-right:1px solid var(--line)}
 .search-wrap{padding:18px;border-bottom:1px solid var(--line)}

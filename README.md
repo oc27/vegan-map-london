@@ -1,25 +1,23 @@
 # London Vegan Places
 
-A standalone, static, mobile-friendly London vegan directory and map.
+A standalone, static, mobile-friendly London vegan and vegan-friendly places guide.
 
 ## What's included
 
-- 43 original Instagram seed accounts, retained in `data/venues.json`
-- A small initial set of venue records with current first-party address/operation checks
-- A separate pending list for accounts that still need checking
-- Search, region filters, mapped/pending filters and venue detail popups
+- The original 43 Instagram seed accounts, retained in `data/venues.json`
+- 8 venue records with approximate map coordinates, shown as pins
+- The remaining 36 Instagram accounts included in the searchable directory (not pinned until a location can be added)
+- Search, London region filters, mapped-place/account filters and venue detail popups
 - Leaflet map with OpenStreetMap tiles
 - Responsive black-and-white design using Cascadia Mono where installed
 - GitHub Pages deployment workflow
+- A prominent accuracy disclaimer asking visitors to check details directly with venues
 
-## Verification approach
+## Editorial approach
 
-Only records in `verified_venues` are displayed as map pins. A venue should only move from `suggestions` to `verified_venues` after a contributor has checked:
-1. The business is still operating (prefer its own current website/social account, booking system or direct confirmation).
-2. The address belongs to the current venue/branch.
-3. The vegan claim is accurately described. Use `Fully vegan`, `Fully plant-based`, `Vegan options` or another precise label rather than assuming every venue is fully vegan.
+This is a community-maintained guide, not an independently verified directory or an endorsement of any business. Listings may be incomplete or out of date. Visitors should check business status, address, opening hours and vegan options directly with each venue before visiting. Corrections and additions are welcome.
 
-The original asterisk annotations are retained as `asterisk_in_original_list`; their meaning was not supplied, so they are not interpreted.
+All seed accounts remain visible in the directory. Entries with an address and coordinates are displayed as map pins; accounts without a known location are listed by their Instagram handle and broad London region. Pin positions are approximate street-level guides, not guaranteed front-door locations.
 
 ## Run locally
 
@@ -46,25 +44,17 @@ The workflow is in `.github/workflows/deploy.yml`.
 
 Edit `data/venues.json`.
 
-A pending suggestion has this shape:
+- Add every community suggestion to the `suggestions` array; these appear as Instagram-account entries.
+- Add a physical place to `verified_venues` when you have a name, address, and approximate `lat` / `lng` coordinates. The interface calls these `MAPPED`, not `VERIFIED`.
+- Use precise vegan descriptions such as `Fully vegan`, `Fully plant-based`, or `Vegan options`; do not imply that every venue is fully vegan.
+- Keep the disclaimer in the homepage when adapting the site.
 
-```json
-{
-  "id": "suggestion-example",
-  "instagram": "example_account",
-  "region": "East",
-  "status": "pending",
-  "asterisk_in_original_list": false,
-  "note": "Needs current operation, address and vegan status checked."
-}
-```
-
-A verified venue should include `name`, `instagram`, `region`, `neighbourhood`, `address`, `vegan_status`, `category`, `website`, `source_urls`, `verification_note` and `checked_at`. Give each physical branch its own unique `id`. The front-end geocodes the address using the OpenStreetMap Nominatim service and caches successful results in the visitor's browser.
+The front end reads coordinates directly from the data file. It does not geocode addresses in each visitor's browser, so pins render without depending on a live geocoding service.
 
 ## External services
 
 - Leaflet: map rendering library (CDN)
-- OpenStreetMap: map tiles and geocoding
+- OpenStreetMap: map tiles
 - GitHub Pages: static hosting
 
-The map needs an internet connection. The public Nominatim service is used conservatively (sequential requests with a delay); for a larger public launch, consider a dedicated geocoding provider or storing checked coordinates in the data file.
+The map needs an internet connection to load Leaflet and OpenStreetMap tiles. Venue pins themselves are generated from the bundled coordinates.

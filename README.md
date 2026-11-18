@@ -74,3 +74,26 @@ The map needs an internet connection to load Leaflet and OpenStreetMap tiles. Ve
 A coordinate-audit worklist is included as `COORDINATE-AUDIT.csv`. All 65 current positions are explicitly marked as needing manual verification. This update does not claim that any coordinates have been independently geocoded or checked against a building entrance. The existing coordinates are retained so the map continues to work, but the interface labels them approximate.
 
 The live Nominatim public service has strict usage limits and discourages bulk geocoding. Any one-off audit must respect its current policy, cache results, and manually check ambiguous matches. A geocoded street/building result is not automatically an entrance coordinate. See https://operations.osmfoundation.org/policies/nominatim/ .
+
+
+## Updating map coordinates
+
+The coordinate updater is a one-off maintenance tool, not a visitor verification
+step. It geocodes venue names and addresses with OpenStreetMap Nominatim, caches
+responses, and updates `data/venues.json` directly. It waits at least 1.1 seconds
+between requests and leaves an existing coordinate unchanged when it cannot find
+a plausible building or venue match.
+
+To run locally from the repository root:
+
+```bash
+python3 scripts/geocode_venues.py
+```
+
+Alternatively, after uploading the files to GitHub, open **Actions → Geocode map
+locations → Run workflow**. The workflow runs the same script and commits changed
+coordinates; the normal Pages deployment then publishes the updated map.
+
+Nominatim's public service has a strict usage policy. This script is deliberately
+sequential, rate-limited, and cached; do not run it repeatedly or use it for
+continuous bulk geocoding. Policy: https://operations.osmfoundation.org/policies/nominatim/

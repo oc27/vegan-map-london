@@ -25,8 +25,7 @@
       "lng": -0.0259,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=E3%20Vegan%2C%20357%20Roman%20Road%2C%20London%20E3%205QR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=E3%20Vegan%2C%20357%20Roman%20Road%2C%20London%20E3%205QR"
     },
     {
       "id": "mildreds-camden",
@@ -49,8 +48,7 @@
       "lng": -0.1438,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mildreds%20Camden%2C%209%20Jamestown%20Road%2C%20London%20NW1%207BW",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mildreds%20Camden%2C%209%20Jamestown%20Road%2C%20London%20NW1%207BW"
     },
     {
       "id": "club-mexicana-mayfair",
@@ -74,8 +72,7 @@
       "lng": -0.1514,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Club%20Mexicana%20%E2%80%94%20Mayfair%2C%20St%20Mark%E2%80%99s%20Church%2C%20North%20Audley%20Street%2C%20London%20W1K%206ZA",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Club%20Mexicana%20%E2%80%94%20Mayfair%2C%20St%20Mark%E2%80%99s%20Church%2C%20North%20Audley%20Street%2C%20London%20W1K%206ZA"
     },
     {
       "id": "club-mexicana-boxhall",
@@ -98,8 +95,7 @@
       "lng": -0.0818,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Club%20Mexicana%20%E2%80%94%20Boxhall%20City%2C%20Boxhall%20City%2C%20Liverpool%20Street%2C%20London%20EC2M%207PN",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Club%20Mexicana%20%E2%80%94%20Boxhall%20City%2C%20Boxhall%20City%2C%20Liverpool%20Street%2C%20London%20EC2M%207PN"
     },
     {
       "id": "mallow-borough",
@@ -124,8 +120,7 @@
       "lng": -0.0903,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mallow%20%E2%80%94%20Borough%20Market%2C%201%20Cathedral%20Street%2C%20London%20SE1%209DE",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mallow%20%E2%80%94%20Borough%20Market%2C%201%20Cathedral%20Street%2C%20London%20SE1%209DE"
     },
     {
       "id": "unity-diner",
@@ -150,8 +145,7 @@
       "lng": -0.0734,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Unity%20Diner%2C%2060%20Wentworth%20Street%2C%20London%20E1%207AL",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Unity%20Diner%2C%2060%20Wentworth%20Street%2C%20London%20E1%207AL"
     },
     {
       "id": "dauns",
@@ -177,8 +171,7 @@
       "lng": -0.0731,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Dauns%2C%2077%20Wentworth%20Street%2C%20London%20E1%207TD",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Dauns%2C%2077%20Wentworth%20Street%2C%20London%20E1%207TD"
     },
     {
       "id": "plates-london",
@@ -202,8 +195,7 @@
       "lng": -0.0817,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Plates%2C%20320%20Old%20Street%2C%20London%20EC1V%209DR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Plates%2C%20320%20Old%20Street%2C%20London%20EC1V%209DR"
     },
     {
       "id": "temple-of-seitan-camden",
@@ -228,8 +220,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Temple%20of%20Seitan%20%E2%80%94%20Camden%2C%2043%20Parkway%2C%20Camden%2C%20London%20NW1%207PN",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Temple%20of%20Seitan%20%E2%80%94%20Camden%2C%2043%20Parkway%2C%20Camden%2C%20London%20NW1%207PN"
     },
     {
       "id": "temple-of-seitan-hackney",
@@ -254,8 +245,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Temple%20of%20Seitan%20%E2%80%94%20Hackney%2C%2010%20Morning%20Lane%2C%20London%20E9%206NA",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Temple%20of%20Seitan%20%E2%80%94%20Hackney%2C%2010%20Morning%20Lane%2C%20London%20E9%206NA"
     },
     {
       "id": "the-fields-beneath",
@@ -280,8 +270,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Fields%20Beneath%2C%2052a%20Prince%20of%20Wales%20Road%2C%20Kentish%20Town%2C%20London%20NW5%203LN",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Fields%20Beneath%2C%2052a%20Prince%20of%20Wales%20Road%2C%20Kentish%20Town%2C%20London%20NW5%203LN"
     },
     {
       "id": "andu-ethiopian-vegan-cafe",
@@ -307,8 +296,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Andu%20Ethiopian%20Vegan%20Caf%C3%A9%2C%20528%20Kingsland%20Road%2C%20London%20E8%204AH",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Andu%20Ethiopian%20Vegan%20Caf%C3%A9%2C%20528%20Kingsland%20Road%2C%20London%20E8%204AH"
     },
     {
       "id": "all-nations-vegan-house",
@@ -333,8 +321,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=All%20Nations%20Vegan%20House%2C%2041%20Stoke%20Newington%20High%20Street%2C%20London%20N16%208DR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=All%20Nations%20Vegan%20House%2C%2041%20Stoke%20Newington%20High%20Street%2C%20London%20N16%208DR"
     },
     {
       "id": "gleaners-community-cafe",
@@ -359,8 +346,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Gleaners%20Community%20Caf%C3%A9%2C%20The%20Hornbeam%20Centre%2C%20458%20Hoe%20Street%2C%20London%20E17%209AH",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Gleaners%20Community%20Caf%C3%A9%2C%20The%20Hornbeam%20Centre%2C%20458%20Hoe%20Street%2C%20London%20E17%209AH"
     },
     {
       "id": "tofu-vegan-islington",
@@ -385,8 +371,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Islington%2C%20105%20Upper%20Street%2C%20London%20N1%201QN",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Islington%2C%20105%20Upper%20Street%2C%20London%20N1%201QN"
     },
     {
       "id": "tofu-vegan-golders-green",
@@ -411,8 +396,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Golders%20Green%2C%2028%20North%20End%20Road%2C%20London%20NW11%207PT",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Golders%20Green%2C%2028%20North%20End%20Road%2C%20London%20NW11%207PT"
     },
     {
       "id": "tofu-vegan-charlotte-street",
@@ -437,8 +421,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Charlotte%20Street%2C%2032%20Charlotte%20Street%2C%20London%20W1T%202NQ",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Charlotte%20Street%2C%2032%20Charlotte%20Street%2C%20London%20W1T%202NQ"
     },
     {
       "id": "tofu-vegan-gloucester-road",
@@ -463,8 +446,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Gloucester%20Road%2C%2029%20Gloucester%20Road%2C%20London%20SW7%204PL",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Gloucester%20Road%2C%2029%20Gloucester%20Road%2C%20London%20SW7%204PL"
     },
     {
       "id": "tofu-vegan-strand",
@@ -489,8 +471,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Strand%2C%20397%20Strand%2C%20London%20WC2R%200LP",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Strand%2C%20397%20Strand%2C%20London%20WC2R%200LP"
     },
     {
       "id": "beza-ethiopian",
@@ -514,8 +495,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Beza%2C%208A%20Sayer%20Street%2C%20London%20SE17%201FH",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Beza%2C%208A%20Sayer%20Street%2C%20London%20SE17%201FH"
     },
     {
       "id": "addis-vegan-kitchen",
@@ -539,8 +519,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Addis%20Vegan%20Kitchen%2C%20244%20Old%20Kent%20Road%2C%20London%20SE1%205UB",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Addis%20Vegan%20Kitchen%2C%20244%20Old%20Kent%20Road%2C%20London%20SE1%205UB"
     },
     {
       "id": "gauthier-soho",
@@ -565,8 +544,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Gauthier%20Soho%2C%2021%20Romilly%20Street%2C%20London%20W1D%205AF",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Gauthier%20Soho%2C%2021%20Romilly%20Street%2C%20London%20W1D%205AF"
     },
     {
       "id": "123v-browns",
@@ -591,8 +569,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=123V%20Browns%2C%2039%20Brook%20Street%2C%20London%20W1K%204JE",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=123V%20Browns%2C%2039%20Brook%20Street%2C%20London%20W1K%204JE"
     },
     {
       "id": "vantra",
@@ -617,8 +594,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Vantra%2C%205%20Wardour%20Street%2C%20London%20W1D%206PB",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Vantra%2C%205%20Wardour%20Street%2C%20London%20W1D%206PB"
     },
     {
       "id": "veg-box-cafe",
@@ -643,8 +619,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Veg%20Box%20Caf%C3%A9%2C%20136%20Marylebone%20Road%2C%20London%20NW1%205PH",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Veg%20Box%20Caf%C3%A9%2C%20136%20Marylebone%20Road%2C%20London%20NW1%205PH"
     },
     {
       "id": "kin-london",
@@ -669,8 +644,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=KIN%20London%2C%2021a%20Foley%20Street%2C%20London%20W1W%206DS",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=KIN%20London%2C%2021a%20Foley%20Street%2C%20London%20W1W%206DS"
     },
     {
       "id": "the-gate-hammersmith",
@@ -695,8 +669,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Gate%20%E2%80%94%20Hammersmith%2C%2051%20Queen%20Caroline%20Street%2C%20London%20W6%209QL",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Gate%20%E2%80%94%20Hammersmith%2C%2051%20Queen%20Caroline%20Street%2C%20London%20W6%209QL"
     },
     {
       "id": "king-cookdaily-boxhall",
@@ -720,8 +693,7 @@
       "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=King%20CookDaily%20%E2%80%94%20Boxhall%20City%2C%20Boxhall%20City%2C%201%E2%80%9327%20The%20Arcade%2C%20Liverpool%20Street%2C%20London%20EC2M%207PN",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=King%20CookDaily%20%E2%80%94%20Boxhall%20City%2C%20Boxhall%20City%2C%201%E2%80%9327%20The%20Arcade%2C%20Liverpool%20Street%2C%20London%20EC2M%207PN"
     }
   ],
   "suggestions": [
@@ -747,8 +719,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Address listed for Bean’s Café; check current trading details before visiting.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Bean%27s%20Caf%C3%A9%2C%20Unit%202%2C%201%20Maple%20Path%2C%20London%20E5%208FB",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Bean%27s%20Caf%C3%A9%2C%20Unit%202%2C%201%20Maple%20Path%2C%20London%20E5%208FB"
     },
     {
       "id": "suggestion-the-gallery-cafe",
@@ -772,8 +743,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "The source describes an all-vegan menu; check directly for current menu details.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Gallery%20Caf%C3%A9%2C%2021%20Old%20Ford%20Road%2C%20London%20E2%209PL",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Gallery%20Caf%C3%A9%2C%2021%20Old%20Ford%20Road%2C%20London%20E2%209PL"
     },
     {
       "id": "suggestion-loveshack-ldn",
@@ -799,8 +769,7 @@
       "map_note": "Address from the venue listing; check current opening and food offer.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Love%20Shack%2C%20Arch%20298%E2%80%93299%2C%20Cambridge%20Heath%20Road%2C%20London%20E2%209HA",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Love%20Shack%2C%20Arch%20298%E2%80%93299%2C%20Cambridge%20Heath%20Road%2C%20London%20E2%209HA"
     },
     {
       "id": "suggestion-mandalacafeldn",
@@ -823,8 +792,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Listed as a non-profit café; check current opening details.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=MaNDALA%20Caf%C3%A9%2C%20241%E2%80%93243%20Globe%20Road%2C%20London%20E2%200JD",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=MaNDALA%20Caf%C3%A9%2C%20241%E2%80%93243%20Globe%20Road%2C%20London%20E2%200JD"
     },
     {
       "id": "suggestion-geckocoffeehouse",
@@ -848,8 +816,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Map position approximate; check current menu and hours.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Gecko%20Coffeehouse%2C%2049%20Bethnal%20Green%20Road%2C%20London%20E1%206LA",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Gecko%20Coffeehouse%2C%2049%20Bethnal%20Green%20Road%2C%20London%20E1%206LA"
     },
     {
       "id": "suggestion-jungle-electric",
@@ -872,8 +839,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Check current opening and food offer.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Jungle%20Electric%2C%20467%20Roman%20Road%2C%20London%20E3%205LX",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Jungle%20Electric%2C%20467%20Roman%20Road%2C%20London%20E3%205LX"
     },
     {
       "id": "suggestion-thirdculturedeli",
@@ -896,8 +862,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Check current menu and opening details.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Third%20Culture%20Deli%2C%2029%20Broadway%20Market%2C%20London%20E8%204PH",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Third%20Culture%20Deli%2C%2029%20Broadway%20Market%2C%20London%20E8%204PH"
     },
     {
       "id": "suggestion-chicken-ish",
@@ -921,8 +886,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Reported residency at Saint Monday from September 2026; check current service dates.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Chickenish%2C%20Saint%20Monday%2C%204%20Warburton%20Road%2C%20London%20E8%203RR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Chickenish%2C%20Saint%20Monday%2C%204%20Warburton%20Road%2C%20London%20E8%203RR"
     },
     {
       "id": "suggestion-facingheaven",
@@ -947,8 +911,7 @@
       "map_note": "Source describes a completely vegan offering; check current opening hours.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Facing%20Heaven%2C%201a%20Bayford%20Street%2C%20London%20E8%203SE",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Facing%20Heaven%2C%201a%20Bayford%20Street%2C%20London%20E8%203SE"
     },
     {
       "id": "suggestion-carbclub--",
@@ -971,8 +934,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Included because it was in the seed list; this is a creative workshop listing, not a vegan restaurant.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Carb%20Club%2C%20112%20Warwick%20Works%2C%20Downs%20Road%2C%20London%20E5%208QJ",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Carb%20Club%2C%20112%20Warwick%20Works%2C%20Downs%20Road%2C%20London%20E5%208QJ"
     },
     {
       "id": "suggestion-blackcathackney",
@@ -997,8 +959,7 @@
       "map_note": "Check current opening details.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Black%20Cat%20Caf%C3%A9%2C%2076A%20Clarence%20Road%2C%20London%20E5%208HB",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Black%20Cat%20Caf%C3%A9%2C%2076A%20Clarence%20Road%2C%20London%20E5%208HB"
     },
     {
       "id": "suggestion-wearewaveldn",
@@ -1024,8 +985,7 @@
       "map_note": "A second listing has also been reported at 1A Evering Road; check the business for its current location.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=WAVE%20%E2%80%94%20We%20Are%20Vegan%20Everything%2C%2011%20Dispensary%20Lane%2C%20London%20E8%201FT",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=WAVE%20%E2%80%94%20We%20Are%20Vegan%20Everything%2C%2011%20Dispensary%20Lane%2C%20London%20E8%201FT"
     },
     {
       "id": "suggestion-merkamo-ethiopian",
@@ -1049,8 +1009,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Listings describe a vegetarian menu with vegan options; check directly.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Merkamo%2C%2042%20Hanbury%20Street%2C%20London%20E1%205JL",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Merkamo%2C%2042%20Hanbury%20Street%2C%20London%20E1%205JL"
     },
     {
       "id": "suggestion-mukbap-ldn",
@@ -1073,8 +1032,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Check current menu and opening details.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mukbap%2C%2091%20Worship%20Street%2C%20London%20EC2A%202BG",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mukbap%2C%2091%20Worship%20Street%2C%20London%20EC2A%202BG"
     },
     {
       "id": "suggestion-senvietchay",
@@ -1097,8 +1055,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Official site describes the restaurant as 100% vegan.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Sen%20Viet%20Vegan%20Restaurant%2C%20120%20Kingsland%20Road%2C%20London%20E2%208DP",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Sen%20Viet%20Vegan%20Restaurant%2C%20120%20Kingsland%20Road%2C%20London%20E2%208DP"
     },
     {
       "id": "suggestion-thehoglessroast",
@@ -1122,8 +1079,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Reported at CRATE, Walthamstow; check current trading location.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Hogless%20Roast%2C%20CRATE%2C%2035%20St%20James%20Street%2C%20London%20E17%207FY",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Hogless%20Roast%2C%20CRATE%2C%2035%20St%20James%20Street%2C%20London%20E17%207FY"
     },
     {
       "id": "suggestion-beatenbyawhisker",
@@ -1147,8 +1103,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "The bakery states it is entirely vegan.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Beaten%20by%20a%20Whisker%2C%20Unit%203%2C%205a%20Old%20Brewery%20Way%2C%20London%20E17%207FJ",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Beaten%20by%20a%20Whisker%2C%20Unit%203%2C%205a%20Old%20Brewery%20Way%2C%20London%20E17%207FJ"
     },
     {
       "id": "suggestion-thespreadeaglelondon",
@@ -1173,8 +1128,7 @@
       "map_note": "Check current opening and food service.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Spread%20Eagle%2C%20224%20Homerton%20High%20Street%2C%20London%20E9%206AS",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20Spread%20Eagle%2C%20224%20Homerton%20High%20Street%2C%20London%20E9%206AS"
     },
     {
       "id": "suggestion-lds-kitchen",
@@ -1197,8 +1151,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Also listed at The Black Heart, 2–3 Greenland Place, NW1 0AP. Pin marks the Saint Monday listing; check current residency.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=LD%27s%20Kitchen%2C%20Saint%20Monday%2C%204%20Warburton%20Road%2C%20London%20E8%203RR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=LD%27s%20Kitchen%2C%20Saint%20Monday%2C%204%20Warburton%20Road%2C%20London%20E8%203RR"
     },
     {
       "id": "suggestion-purezza",
@@ -1221,8 +1174,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Official location page confirms the Camden address and vegan restaurant.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Purezza%20Camden%2C%2045%E2%80%9347%20Parkway%2C%20London%20NW1%207PN",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Purezza%20Camden%2C%2045%E2%80%9347%20Parkway%2C%20London%20NW1%207PN"
     },
     {
       "id": "suggestion-veganplanetcamden",
@@ -1246,8 +1198,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Address confirmed in Camden public food-hygiene listing; check current menu.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Vegan%20Planet%2C%2011%E2%80%9313%20Parkway%2C%20London%20NW1%207PG",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Vegan%20Planet%2C%2011%E2%80%9313%20Parkway%2C%20London%20NW1%207PG"
     },
     {
       "id": "suggestion-jam-delish",
@@ -1272,8 +1223,7 @@
       "map_note": "Check current opening details.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Jam%20Delish%2C%201%20Tolpuddle%20Street%2C%20London%20N1%200XT",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Jam%20Delish%2C%201%20Tolpuddle%20Street%2C%20London%20N1%200XT"
     },
     {
       "id": "suggestion-itadakizen-london",
@@ -1297,8 +1247,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Check current opening details.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Itadaki%20Zen%2C%20139%20King%27s%20Cross%20Road%2C%20London%20WC1X%209BJ",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Itadaki%20Zen%2C%20139%20King%27s%20Cross%20Road%2C%20London%20WC1X%209BJ"
     },
     {
       "id": "suggestion-plantsofroselyn",
@@ -1323,8 +1272,7 @@
       "map_note": "Official site confirms the Tooley Street address.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Plants%20of%20Roselyn%2C%20102%20Tooley%20Street%2C%20London%20SE1%202TH",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Plants%20of%20Roselyn%2C%20102%20Tooley%20Street%2C%20London%20SE1%202TH"
     },
     {
       "id": "suggestion-tofuveganlondon",
@@ -1350,8 +1298,7 @@
       "map_note": "Representative branch pin only. Tofu Vegan lists several London branches; check its website for the branch nearest you.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Spitalfields%2C%2054%20Commercial%20Street%2C%20London%20E1%206LT",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Tofu%20Vegan%20%E2%80%94%20Spitalfields%2C%2054%20Commercial%20Street%2C%20London%20E1%206LT"
     },
     {
       "id": "suggestion-studiogauthierldn",
@@ -1376,8 +1323,7 @@
       "map_note": "Check current opening and menu details.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Studio%20Gauthier%2C%2021%20Stephen%20Street%2C%20London%20W1T%201LN",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Studio%20Gauthier%2C%2021%20Stephen%20Street%2C%20London%20W1T%201LN"
     },
     {
       "id": "suggestion-theafterschoolcookieclub",
@@ -1401,8 +1347,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Representative bakery pin. The business lists multiple London locations; check its website for current branches.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20After%20School%20Cookie%20Club%2C%201%E2%80%932%20Weighhouse%20Street%2C%20London%20W1K%205LR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=The%20After%20School%20Cookie%20Club%2C%201%E2%80%932%20Weighhouse%20Street%2C%20London%20W1K%205LR"
     },
     {
       "id": "suggestion-cream-dream-london",
@@ -1425,8 +1370,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Check current opening details.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Cream%20Dream%20Caf%C3%A9%2C%2046%20Bedford%20Street%2C%20London%20WC2E%209HA",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Cream%20Dream%20Caf%C3%A9%2C%2046%20Bedford%20Street%2C%20London%20WC2E%209HA"
     },
     {
       "id": "suggestion-covenofwiches",
@@ -1451,8 +1395,7 @@
       "map_note": "Reported as newly opened in Brixton Market Row in August 2026; previously operated in Walthamstow.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Coven%20of%20Wiches%2C%2014D%20Market%20Row%2C%20London%20SW9%208LD",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Coven%20of%20Wiches%2C%2014D%20Market%20Row%2C%20London%20SW9%208LD"
     },
     {
       "id": "suggestion-fedbyplantsuk",
@@ -1476,8 +1419,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Mobile/pop-up listing. Recent posts report trading at Windrush Square in Brixton after the former Gabriel’s Wharf café closed; check Instagram for current location.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Fed%20By%20Plants%20%E2%80%94%20Windrush%20Square%20pop-up%2C%20Windrush%20Square%2C%20Brixton%2C%20London%20SW2",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Fed%20By%20Plants%20%E2%80%94%20Windrush%20Square%20pop-up%2C%20Windrush%20Square%2C%20Brixton%2C%20London%20SW2"
     },
     {
       "id": "suggestion-oowee-vegan",
@@ -1503,8 +1445,7 @@
       "map_note": "Official location page confirms the Brixton Village address.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Oowee%20Vegan%20%E2%80%94%20Brixton%2C%20Units%2091%E2%80%9392%2C%20Brixton%20Village%20Market%2C%20London%20SW9%208PR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Oowee%20Vegan%20%E2%80%94%20Brixton%2C%20Units%2091%E2%80%9392%2C%20Brixton%20Village%20Market%2C%20London%20SW9%208PR"
     },
     {
       "id": "suggestion-enrootldn",
@@ -1529,8 +1470,7 @@
       "map_note": "Representative branch pin. The business has also listed Clapham and a Brixton Ritzy location; check its website for current locations.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=En%20Root%20%E2%80%94%20Peckham%2C%2028%20Peckham%20Rye%2C%20London%20SE15%204JR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=En%20Root%20%E2%80%94%20Peckham%2C%2028%20Peckham%20Rye%2C%20London%20SE15%204JR"
     },
     {
       "id": "suggestion-buddha-taste",
@@ -1554,8 +1494,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Official website confirms the Blackheath address and plant-based cuisine.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Buddha%20Taste%2C%208%20Royal%20Parade%2C%20Blackheath%2C%20London%20SE3%200TL",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Buddha%20Taste%2C%208%20Royal%20Parade%2C%20Blackheath%2C%20London%20SE3%200TL"
     },
     {
       "id": "suggestion-kegarmo",
@@ -1578,8 +1517,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Official site lists Next Door Baker as its current retail location.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Kegarmo%20%E2%80%94%20Next%20Door%20Baker%2C%2084%20Moyser%20Road%2C%20London%20SW16%206SQ",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Kegarmo%20%E2%80%94%20Next%20Door%20Baker%2C%2084%20Moyser%20Road%2C%20London%20SW16%206SQ"
     },
     {
       "id": "suggestion-mali-vegan",
@@ -1606,8 +1544,7 @@
       "verification_note": "Included as a fully vegan Thai restaurant in the 2026 London vegan dining guide; not independently audited by this community guide.",
       "checked_at": "2026-11-18",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mali%20Vegan%20Thai%2C%205a%20Hogarth%20Place%2C%20London%20SW5%200QT",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Mali%20Vegan%20Thai%2C%205a%20Hogarth%20Place%2C%20London%20SW5%200QT"
     },
     {
       "id": "suggestion-suveganbuffet",
@@ -1631,8 +1568,7 @@
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "map_note": "Check directly whether the buffet is still operating and whether its menu remains fully vegan.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Su%20Vegan%20Buffet%2C%2086%20Uxbridge%20Road%2C%20London%20W12%208LR",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Su%20Vegan%20Buffet%2C%2086%20Uxbridge%20Road%2C%20London%20W12%208LR"
     },
     {
       "id": "indian-veg-angel",
@@ -1658,8 +1594,7 @@
       "lng": -0.1065,
       "coordinate_note": "Approximate coordinate retained from the existing dataset. Not independently geocoded or checked against the building entrance.",
       "coordinate_accuracy": "approximate",
-      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Indian%20Veg%2C%2092%E2%80%9393%20Chapel%20Market%2C%20London%20N1%209EX",
-      "coordinate_status": "needs_manual_verification"
+      "google_maps_url": "https://www.google.com/maps/dir/?api=1&destination=Indian%20Veg%2C%2092%E2%80%9393%20Chapel%20Market%2C%20London%20N1%209EX"
     }
   ],
   "seed_account_count": 43,
@@ -1717,10 +1652,5 @@
       "mali.vegan",
       "suveganbuffet"
     ]
-  },
-  "coordinate_audit": {
-    "status": "pending",
-    "last_reviewed": "2026-11-18",
-    "note": "No coordinates in this dataset have been independently verified in this update. See COORDINATE-AUDIT.csv."
   }
 }

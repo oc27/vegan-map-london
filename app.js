@@ -49,7 +49,7 @@ function renderList() {
     const sub = `${v.neighbourhood || v.region}${v.category ? ` · ${v.category}` : isAccount ? ' · Community listing' : ''}`;
     const links = `<a href="${googleMapsUrl(v)}" target="_blank" rel="noopener noreferrer">OPEN IN GOOGLE MAPS ↗</a>${v.instagram ? `<a href="${instagramUrl(v.instagram)}" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>` : ""}${v.website ? `<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a>` : ""}`;
     const address = v.address ? `<p class="card-address">${escapeHtml(v.address)}</p>` : "";
-    const tag = hasCoordinates(v) ? "APPROX. PIN" : "LISTED";
+    const tag = hasCoordinates(v) ? "MAPPED" : "LISTED";
     return `<article class="venue-card ${activeId===v.id?"selected":""}" tabindex="0" data-id="${escapeHtml(v.id)}">
       <div class="card-top"><div><h3>${escapeHtml(name)}</h3><p>${escapeHtml(sub)}</p></div><span class="tag">${tag}</span></div>
       ${address}
@@ -76,14 +76,14 @@ function selectEntry(id) {
 }
 function makePopup(venue) {
   const sourceLinks = (venue.source_urls || []).map(url => `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">source</a>`).join(" · ");
-  const description = venue.map_note || venue.verification_note || venue.coordinate_note || "Map position is approximate; check directly with the venue before visiting.";
+  const description = venue.map_note || venue.verification_note || venue.coordinate_note || "Map position is based on the listed venue details; use Google Maps for directions.";
   return `<div class="popup-title">${escapeHtml(venue.name || `@${venue.instagram}`)}</div>
     ${venue.address ? `<div>${escapeHtml(venue.address)}</div>` : ""}
     <div class="popup-muted">${escapeHtml(venue.vegan_status || "Community listing")} · ${escapeHtml(venue.category || "Listing")}</div>
     <p>${escapeHtml(description)}</p>
     <div><a href="${googleMapsUrl(venue)}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>${venue.instagram ? ` · <a href="${instagramUrl(venue.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>` : ""}${venue.website ? ` · <a href="${escapeHtml(venue.website)}" target="_blank" rel="noopener noreferrer">Website ↗</a>` : ""}</div>
     ${sourceLinks ? `<small>${sourceLinks}</small>` : ""}
-    <p class="popup-disclaimer">Guide only — pin position is approximate, not a confirmed entrance. Google Maps opens directions using the listed venue name and address.</p>`;
+    <p class="popup-disclaimer">Use the Google Maps link for directions. Check venue details before travelling.</p>`;
 }
 function buildMarkers() {
   let located = 0;

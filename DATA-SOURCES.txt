@@ -64,3 +64,14 @@ Indian Veg (added 18 November 2026)
 - Address and vegetarian buffet details: https://thatsup.co.uk/london/restaurant/indian-veg and https://theindianveg.wordpress.com/contact/
 - Vegan status note: twoVeg reports that most buffet dishes are vegan, but the restaurant is vegetarian rather than fully vegan: https://www.twoveg.uk/indian-veg/index.html
 - Map position is approximate street-level placement for 92–93 Chapel Market, N1 9EX.
+
+
+COORDINATE AUDIT
+All 65 coordinates remain approximate and require manual verification. A worklist
+is provided in COORDINATE-AUDIT.csv. No new coordinates are represented as exact
+or entrance-level verified in this release.
+Nominatim public-service policy: https://operations.osmfoundation.org/policies/nominatim/
+
+COMMUNITY CONTRIBUTIONS
+Visitors should use the homepage feedback form. Submissions are sent by email
+through Formspree; visitors do not need to update the GitHub repository.

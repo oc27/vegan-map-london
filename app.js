@@ -6,6 +6,10 @@ function escapeHtml(value = "") {
   return String(value).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 function instagramUrl(handle) { return `https://www.instagram.com/${encodeURIComponent(handle)}/`; }
+function googleMapsUrl(v) {
+  const destination = [v.name || (v.instagram ? `@${v.instagram}` : ""), v.address].filter(Boolean).join(", ");
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destination || "London")}`;
+}
 function hasCoordinates(v) { return Number.isFinite(v.lat) && Number.isFinite(v.lng); }
 function allEntries() {
   return [
@@ -43,9 +47,9 @@ function renderList() {
     const isAccount = v.listType === "account";
     const name = v.name || `@${v.instagram}`;
     const sub = `${v.neighbourhood || v.region}${v.category ? ` · ${v.category}` : isAccount ? ' · Community listing' : ''}`;
-    const links = `${v.instagram ? `<a href="${instagramUrl(v.instagram)}" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>` : ""}${v.website ? `<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a>` : ""}`;
+    const links = `<a href="${googleMapsUrl(v)}" target="_blank" rel="noopener noreferrer">OPEN IN GOOGLE MAPS ↗</a>${v.instagram ? `<a href="${instagramUrl(v.instagram)}" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>` : ""}${v.website ? `<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a>` : ""}`;
     const address = v.address ? `<p class="card-address">${escapeHtml(v.address)}</p>` : "";
-    const tag = hasCoordinates(v) ? "PINNED" : "LISTED";
+    const tag = hasCoordinates(v) ? "APPROX. PIN" : "LISTED";
     return `<article class="venue-card ${activeId===v.id?"selected":""}" tabindex="0" data-id="${escapeHtml(v.id)}">
       <div class="card-top"><div><h3>${escapeHtml(name)}</h3><p>${escapeHtml(sub)}</p></div><span class="tag">${tag}</span></div>
       ${address}
@@ -77,9 +81,9 @@ function makePopup(venue) {
     ${venue.address ? `<div>${escapeHtml(venue.address)}</div>` : ""}
     <div class="popup-muted">${escapeHtml(venue.vegan_status || "Community listing")} · ${escapeHtml(venue.category || "Listing")}</div>
     <p>${escapeHtml(description)}</p>
-    <div>${venue.instagram ? `<a href="${instagramUrl(venue.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>` : ""}${venue.instagram && venue.website ? " · " : ""}${venue.website ? `<a href="${escapeHtml(venue.website)}" target="_blank" rel="noopener noreferrer">Website ↗</a>` : ""}</div>
+    <div><a href="${googleMapsUrl(venue)}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a>${venue.instagram ? ` · <a href="${instagramUrl(venue.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>` : ""}${venue.website ? ` · <a href="${escapeHtml(venue.website)}" target="_blank" rel="noopener noreferrer">Website ↗</a>` : ""}</div>
     ${sourceLinks ? `<small>${sourceLinks}</small>` : ""}
-    <p class="popup-disclaimer">Guide only — please check details with the venue before visiting. Pin positions are approximate.</p>`;
+    <p class="popup-disclaimer">Guide only — pin position is approximate, not a confirmed entrance. Google Maps opens directions using the listed venue name and address.</p>`;
 }
 function buildMarkers() {
   let located = 0;

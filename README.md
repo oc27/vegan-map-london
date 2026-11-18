@@ -16,7 +16,7 @@ A standalone, static, mobile-friendly London vegan and vegan-friendly places gui
 
 ## Editorial approach
 
-This is a community-maintained guide, not an independently verified directory or an endorsement of any business. Listings may be incomplete or out of date. Visitors should check business status, address, opening hours and vegan options directly with each venue before visiting. Corrections and additions are welcome through the homepage feedback form.
+This is a community-maintained guide, not an independently verified directory or an endorsement of any business. Listings may be incomplete or out of date. Visitors should check business status, address, opening hours and vegan options directly with each venue before visiting. Corrections and additions are welcome through the homepage feedback form. Visitors do not need to access GitHub or edit the repository; submissions are emailed through the configured Formspree form.
 
 All seed accounts remain visible in the directory. The expanded dataset contains 65 entries, all displayed as map pins. Some represent a current pop-up/residency, one representative branch of a multi-site business, or a broad approximate location where the original account did not provide a fixed address. Every coordinate is approximate and should be checked directly before travelling. One seed entry (Carb Club) is a creative workshop listing rather than a food venue; it is retained because it appeared in the source list and is labelled accordingly.
 
@@ -59,3 +59,18 @@ The front end reads coordinates directly from the data file. It does not geocode
 - GitHub Pages: static hosting
 
 The map needs an internet connection to load Leaflet and OpenStreetMap tiles. Venue pins themselves are generated from the bundled coordinates.
+
+
+## Navigation and coordinate accuracy update (18 November 2026)
+
+- Every listing now has an **Open in Google Maps** directions link in its directory card and map popup.
+- The destination is built from the venue name and the full listed address.
+- All 65 map coordinates remain approximate. They have **not** been individually verified against each building entrance, so the map does not claim that the pins are exact.
+- The next data-quality pass should geocode and manually inspect each venue, then update the coordinates and record the evidence/source for each one.
+
+
+## Coordinate audit status (18 November 2026)
+
+A coordinate-audit worklist is included as `COORDINATE-AUDIT.csv`. All 65 current positions are explicitly marked as needing manual verification. This update does not claim that any coordinates have been independently geocoded or checked against a building entrance. The existing coordinates are retained so the map continues to work, but the interface labels them approximate.
+
+The live Nominatim public service has strict usage limits and discourages bulk geocoding. Any one-off audit must respect its current policy, cache results, and manually check ambiguous matches. A geocoded street/building result is not automatically an entrance coordinate. See https://operations.osmfoundation.org/policies/nominatim/ .

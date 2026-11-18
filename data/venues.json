@@ -1,0 +1,504 @@
+{
+  "title": "London Vegan Places",
+  "description": "A community-built map of vegan and vegan-friendly places in London.",
+  "last_reviewed": "2026-11-18",
+  "verification_policy": "Only entries with status=verified are mapped. A verified record requires a current first-party source for the venue's address and evidence that it is currently operating. Vegan status is recorded separately.",
+  "verified_venues": [
+    {
+      "id": "e3-vegan",
+      "name": "E3 Vegan",
+      "instagram": "e3.vegan",
+      "region": "East",
+      "neighbourhood": "Bow",
+      "address": "357 Roman Road, London E3 5QR",
+      "vegan_status": "Fully vegan",
+      "category": "Restaurant / café",
+      "status": "verified",
+      "website": "https://www.e3vegan.com/",
+      "source_urls": [
+        "https://www.e3vegan.com/"
+      ],
+      "verification_note": "Official website confirms the Roman Road address and current Friday–Sunday café service plus Friday/Saturday evening dining.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false
+    },
+    {
+      "id": "mildreds-camden",
+      "name": "Mildreds Camden",
+      "instagram": "mildredsrestaurants",
+      "region": "North",
+      "neighbourhood": "Camden",
+      "address": "9 Jamestown Road, London NW1 7BW",
+      "vegan_status": "Fully plant-based",
+      "category": "Restaurant",
+      "status": "verified",
+      "website": "https://www.mildreds.com/camden/",
+      "source_urls": [
+        "https://www.mildreds.com/camden/"
+      ],
+      "verification_note": "Official branch page confirms address, opening hours and that the menu is fully plant-based. This verifies the Camden branch only.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": true
+    },
+    {
+      "id": "club-mexicana-mayfair",
+      "name": "Club Mexicana — Mayfair",
+      "instagram": "clubmexicana",
+      "region": "Central",
+      "neighbourhood": "Mayfair",
+      "address": "St Mark’s Church, North Audley Street, London W1K 6ZA",
+      "vegan_status": "Fully plant-based",
+      "category": "Mexican",
+      "status": "verified",
+      "website": "https://clubmexicana.com/",
+      "source_urls": [
+        "https://clubmexicana.com/",
+        "https://www.clubmexicana.com/locations/mayfair/"
+      ],
+      "verification_note": "Official website lists this location and describes the food as zero meat / 100% plant-based.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": true
+    },
+    {
+      "id": "club-mexicana-boxhall",
+      "name": "Club Mexicana — Boxhall City",
+      "instagram": "clubmexicana",
+      "region": "Central",
+      "neighbourhood": "Liverpool Street",
+      "address": "Boxhall City, Liverpool Street, London EC2M 7PN",
+      "vegan_status": "Fully plant-based",
+      "category": "Mexican",
+      "status": "verified",
+      "website": "https://clubmexicana.com/",
+      "source_urls": [
+        "https://clubmexicana.com/"
+      ],
+      "verification_note": "Official Club Mexicana website lists Boxhall City as a current location and describes the food as zero meat / 100% plant-based.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": true
+    },
+    {
+      "id": "mallow-borough",
+      "name": "Mallow — Borough Market",
+      "instagram": "mallowlondon",
+      "region": "South",
+      "neighbourhood": "Borough",
+      "address": "1 Cathedral Street, London SE1 9DE",
+      "vegan_status": "Fully plant-based",
+      "category": "Restaurant",
+      "status": "verified",
+      "website": "https://mallowlondon.com/",
+      "source_urls": [
+        "https://mallowlondon.com/",
+        "https://mallowlondon.com/find-us/"
+      ],
+      "verification_note": "Official website confirms 100% plant-based food, address and current opening hours.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false
+    },
+    {
+      "id": "unity-diner",
+      "name": "Unity Diner",
+      "instagram": "unitydiner",
+      "region": "East",
+      "neighbourhood": "Spitalfields",
+      "address": "60 Wentworth Street, London E1 7AL",
+      "vegan_status": "Fully vegan",
+      "category": "Diner / restaurant",
+      "status": "verified",
+      "website": "https://www.unitydiner.co.uk/",
+      "source_urls": [
+        "https://www.unitydiner.co.uk/contact",
+        "https://www.unitydiner.co.uk/faq"
+      ],
+      "verification_note": "Official contact page confirms address and opening hours; official FAQ confirms the restaurant is 100% vegan.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false
+    },
+    {
+      "id": "dauns",
+      "name": "Dauns",
+      "instagram": "dauns_scandifood",
+      "region": "East",
+      "neighbourhood": "Spitalfields",
+      "address": "77 Wentworth Street, London E1 7TD",
+      "vegan_status": "Fully vegan",
+      "category": "Scandinavian café / deli",
+      "status": "verified",
+      "website": "https://dauns.co.uk/",
+      "source_urls": [
+        "https://dauns.co.uk/",
+        "https://dauns.co.uk/contact/",
+        "https://dauns.co.uk/faqs/"
+      ],
+      "verification_note": "Official website describes the business as fully vegan and confirms its Wentworth Street address and current opening hours.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false
+    },
+    {
+      "id": "plates-london",
+      "name": "Plates",
+      "instagram": "plates_london",
+      "region": "East",
+      "neighbourhood": "Old Street",
+      "address": "320 Old Street, London EC1V 9DR",
+      "vegan_status": "Plant-based menu",
+      "category": "Restaurant / fine dining",
+      "status": "verified",
+      "website": "https://plates-london.com/",
+      "source_urls": [
+        "https://plates-london.com/contact/",
+        "https://plates-london.com/plant-based-restaurant-london/"
+      ],
+      "verification_note": "Official site confirms the Old Street address, current restaurant booking information and plant-based food ethos. The restaurant is described as plant-based; check directly for any menu or dietary changes.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "suggestion-beanandfriendsltd",
+      "instagram": "beanandfriendsltd",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-the-gallery-cafe",
+      "instagram": "the.gallery.cafe",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-loveshack-ldn",
+      "instagram": "loveshack_ldn",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-mandalacafeldn",
+      "instagram": "mandalacafeldn",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-geckocoffeehouse",
+      "instagram": "geckocoffeehouse",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-jungle-electric",
+      "instagram": "jungle.electric",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-thirdculturedeli",
+      "instagram": "thirdculturedeli",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-chicken-ish",
+      "instagram": "chicken_ish",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-facingheaven",
+      "instagram": "facingheaven",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-carbclub--",
+      "instagram": "carbclub__",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-blackcathackney",
+      "instagram": "blackcathackney",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-wearewaveldn",
+      "instagram": "wearewaveldn",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-merkamo-ethiopian",
+      "instagram": "merkamo.ethiopian",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-mukbap-ldn",
+      "instagram": "mukbap_ldn",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-senvietchay",
+      "instagram": "senvietchay",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-thehoglessroast",
+      "instagram": "thehoglessroast",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-beatenbyawhisker",
+      "instagram": "beatenbyawhisker",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-thespreadeaglelondon",
+      "instagram": "thespreadeaglelondon",
+      "region": "East",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-lds-kitchen",
+      "instagram": "lds.kitchen",
+      "region": "North",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-purezza",
+      "instagram": "purezza",
+      "region": "North",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-veganplanetcamden",
+      "instagram": "veganplanetcamden",
+      "region": "North",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-jam-delish",
+      "instagram": "jam.delish",
+      "region": "North",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-itadakizen-london",
+      "instagram": "itadakizen.london",
+      "region": "North",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-plantsofroselyn",
+      "instagram": "plantsofroselyn",
+      "region": "Central",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-tofuveganlondon",
+      "instagram": "tofuveganlondon",
+      "region": "Central",
+      "status": "pending",
+      "asterisk_in_original_list": true,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-studiogauthierldn",
+      "instagram": "studiogauthierldn",
+      "region": "Central",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-theafterschoolcookieclub",
+      "instagram": "theafterschoolcookieclub",
+      "region": "Central",
+      "status": "pending",
+      "asterisk_in_original_list": true,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-cream-dream-london",
+      "instagram": "cream.dream_london",
+      "region": "Central",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-covenofwiches",
+      "instagram": "covenofwiches",
+      "region": "South",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-fedbyplantsuk",
+      "instagram": "fedbyplantsuk",
+      "region": "South",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-oowee-vegan",
+      "instagram": "oowee_vegan",
+      "region": "South",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-enrootldn",
+      "instagram": "enrootldn",
+      "region": "South",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-buddha-taste",
+      "instagram": "buddha_taste",
+      "region": "South",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-kegarmo",
+      "instagram": "kegarmo",
+      "region": "South",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-mali-vegan",
+      "instagram": "mali.vegan",
+      "region": "West",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    },
+    {
+      "id": "suggestion-suveganbuffet",
+      "instagram": "suveganbuffet",
+      "region": "West",
+      "status": "pending",
+      "asterisk_in_original_list": false,
+      "note": "Seed account supplied for the map. Business name, current operation, vegan status and address still need verification."
+    }
+  ],
+  "seed_account_count": 43,
+  "seed_regions": {
+    "East": [
+      "beanandfriendsltd",
+      "the.gallery.cafe",
+      "loveshack_ldn",
+      "mandalacafeldn",
+      "e3.vegan",
+      "geckocoffeehouse",
+      "jungle.electric",
+      "thirdculturedeli",
+      "chicken_ish",
+      "facingheaven",
+      "carbclub__",
+      "blackcathackney",
+      "wearewaveldn",
+      "merkamo.ethiopian",
+      "unitydiner",
+      "clubmexicana",
+      "mukbap_ldn",
+      "senvietchay",
+      "dauns_scandifood",
+      "thehoglessroast",
+      "beatenbyawhisker",
+      "thespreadeaglelondon",
+      "plates_london"
+    ],
+    "North": [
+      "lds.kitchen",
+      "purezza",
+      "veganplanetcamden",
+      "jam.delish",
+      "itadakizen.london"
+    ],
+    "Central": [
+      "mallowlondon",
+      "plantsofroselyn",
+      "mildredsrestaurants",
+      "tofuveganlondon",
+      "studiogauthierldn",
+      "theafterschoolcookieclub",
+      "cream.dream_london"
+    ],
+    "South": [
+      "covenofwiches",
+      "fedbyplantsuk",
+      "oowee_vegan",
+      "enrootldn",
+      "buddha_taste",
+      "kegarmo"
+    ],
+    "West": [
+      "mali.vegan",
+      "suveganbuffet"
+    ]
+  }
+}

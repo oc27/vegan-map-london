@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="A community-built map of vegan and vegan-friendly places across London.">
+  <title>London Vegan Places</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="London Vegan Places home">LONDON VEGAN PLACES<span> / MAP & DIRECTORY</span></a>
+    <div class="header-meta"><span id="verified-count">0 MAPPED</span><span id="suggestion-count">0 TO CHECK</span></div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">A LIVING DIRECTORY · LONDON</p>
+      <h1>Good food.<br><span>Good places.</span></h1>
+      <p class="intro-copy">A growing map of vegan and vegan-friendly places around London. Built from local knowledge, checked as we go.</p>
+    </section>
+
+    <section class="workspace" aria-label="Map and venue directory">
+      <aside class="directory">
+        <div class="search-wrap">
+          <label class="sr-only" for="search">Search places</label>
+          <input id="search" type="search" placeholder="Search name, area or Instagram…" autocomplete="off">
+        </div>
+        <div class="filters">
+          <label for="region-filter">AREA</label>
+          <select id="region-filter">
+            <option value="all">All London</option>
+            <option>East</option><option>North</option><option>Central</option><option>South</option><option>West</option>
+          </select>
+          <label for="status-filter">LIST</label>
+          <select id="status-filter">
+            <option value="mapped">Mapped places</option>
+            <option value="pending">Accounts to check</option>
+            <option value="all">Everything</option>
+          </select>
+        </div>
+        <div class="list-heading">
+          <h2 id="list-title">MAPPED PLACES</h2>
+          <span id="result-count">0</span>
+        </div>
+        <div id="venue-list" class="venue-list" aria-live="polite"></div>
+        <div class="method-note">
+          <strong>HOW THIS MAP WORKS</strong>
+          <p>Only venues with a checked address and current first-party evidence appear as pins. Instagram accounts awaiting checks are kept in the review list, not shown as confirmed places.</p>
+          <a href="#about">Read the verification notes ↓</a>
+        </div>
+      </aside>
+      <section class="map-panel" aria-label="London map">
+        <div class="map-toolbar">
+          <span>INTERACTIVE MAP</span>
+          <span id="map-status" aria-live="polite">Loading map…</span>
+        </div>
+        <div id="map" role="application" aria-label="Map of verified vegan venues in London"></div>
+        <div class="map-legend"><span class="dot"></span> VERIFIED ADDRESS <span class="legend-pending">Pending accounts are not pinned</span></div>
+      </section>
+    </section>
+
+    <section id="about" class="about">
+      <p class="eyebrow">OPEN DATA · COMMUNITY MAINTAINED</p>
+      <h2>A directory that gets better<br>when people contribute.</h2>
+      <div class="about-grid">
+        <p>This first edition starts with 43 Instagram accounts supplied as a seed list. The list is deliberately wider than the map: some places still need their current trading status, exact address or vegan credentials checked.</p>
+        <p>Found a mistake, closure, new branch or missing place? Use the venue’s Instagram or website to check details, then contribute an update through the project repository. A future version can add a public submission and moderation flow.</p>
+      </div>
+      <p class="smallprint">Map data © OpenStreetMap contributors. Map tiles and geocoding are provided by OpenStreetMap services. Venue details are a snapshot and can change; check with a venue before travelling.</p>
+    </section>
+  </main>
+
+  <footer><span>LONDON VEGAN PLACES</span><span>AN OPEN, WORK-IN-PROGRESS DIRECTORY</span></footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./app.js"></script>
+</body>
+</html>

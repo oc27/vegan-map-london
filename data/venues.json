@@ -1,6 +1,6 @@
 {
   "title": "London Vegan Places",
-  "description": "A community-maintained guide to vegan and vegan-friendly places in London. Please check details directly with each venue before visiting.",
+  "description": "A community-maintained guide to vegan and vegan-friendly places to eat in London. Please check details directly with each venue before visiting.",
   "last_reviewed": "2026-11-18",
   "verification_policy": "Community guide only. Listings and details may change. All map positions are approximate; some entries are pop-ups, residencies, representative branches or community listings. Check each listing directly before travelling.",
   "verified_venues": [
@@ -102,7 +102,8 @@
       "website": "https://mallowlondon.com/",
       "source_urls": [
         "https://mallowlondon.com/",
-        "https://mallowlondon.com/find-us/"
+        "https://mallowlondon.com/find-us/",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "verification_note": "Official website confirms 100% plant-based food, address and current opening hours.",
       "checked_at": "2026-11-18",
@@ -124,7 +125,8 @@
       "website": "https://www.unitydiner.co.uk/",
       "source_urls": [
         "https://www.unitydiner.co.uk/contact",
-        "https://www.unitydiner.co.uk/faq"
+        "https://www.unitydiner.co.uk/faq",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "verification_note": "Official contact page confirms address and opening hours; official FAQ confirms the restaurant is 100% vegan.",
       "checked_at": "2026-11-18",
@@ -147,7 +149,8 @@
       "source_urls": [
         "https://dauns.co.uk/",
         "https://dauns.co.uk/contact/",
-        "https://dauns.co.uk/faqs/"
+        "https://dauns.co.uk/faqs/",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "verification_note": "Official website describes the business as fully vegan and confirms its Wentworth Street address and current opening hours.",
       "checked_at": "2026-11-18",
@@ -177,6 +180,464 @@
       "lat": 51.5262,
       "lng": -0.0817,
       "coordinate_note": "Approximate street-level map position; confirm exact entrance before navigation."
+    },
+    {
+      "id": "temple-of-seitan-camden",
+      "name": "Temple of Seitan — Camden",
+      "instagram": "templeofseitan",
+      "region": "North",
+      "neighbourhood": "Camden",
+      "address": "43 Parkway, Camden, London NW1 7PN",
+      "vegan_status": "Fully vegan",
+      "category": "Restaurant / takeaway",
+      "website": "https://www.templeofseitan.co.uk/",
+      "lat": 51.53819,
+      "lng": -0.14417,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://www.templeofseitan.co.uk/"
+      ],
+      "map_note": "Fully vegan venue listed in the 2026 London vegan guide. Check current service and opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "temple-of-seitan-hackney",
+      "name": "Temple of Seitan — Hackney",
+      "instagram": "templeofseitan",
+      "region": "East",
+      "neighbourhood": "Hackney",
+      "address": "10 Morning Lane, London E9 6NA",
+      "vegan_status": "Fully vegan",
+      "category": "Restaurant / takeaway",
+      "website": "https://www.templeofseitan.co.uk/",
+      "lat": 51.5464,
+      "lng": -0.055,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://www.templeofseitan.co.uk/"
+      ],
+      "map_note": "Second London location listed in the 2026 London vegan guide. Check current service and opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "the-fields-beneath",
+      "name": "The Fields Beneath",
+      "instagram": "thefieldsbeneath",
+      "region": "North",
+      "neighbourhood": "Kentish Town",
+      "address": "52a Prince of Wales Road, Kentish Town, London NW5 3LN",
+      "vegan_status": "Fully plant-based",
+      "category": "Café",
+      "website": "https://thefieldsbeneath.com/",
+      "lat": 51.5505,
+      "lng": -0.142,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://thefieldsbeneath.com/"
+      ],
+      "map_note": "Community café described as completely plant-based in the 2026 guide. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "andu-ethiopian-vegan-cafe",
+      "name": "Andu Ethiopian Vegan Café",
+      "instagram": "anducafe",
+      "region": "East",
+      "neighbourhood": "Dalston",
+      "address": "528 Kingsland Road, London E8 4AH",
+      "vegan_status": "Fully vegan",
+      "category": "Ethiopian restaurant",
+      "website": null,
+      "lat": 51.545214,
+      "lng": -0.07551,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://www.timeout.com/london/restaurants/the-best-vegan-restaurants-in-london",
+        "https://thatsup.co.uk/london/restaurant/andu-ethiopian-vegan-cafe"
+      ],
+      "map_note": "2026 guides describe Andu as serving completely vegan Ethiopian food. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "all-nations-vegan-house",
+      "name": "All Nations Vegan House",
+      "instagram": "allnationsveganhouse",
+      "region": "East",
+      "neighbourhood": "Stoke Newington",
+      "address": "41 Stoke Newington High Street, London N16 8DR",
+      "vegan_status": "Fully vegan",
+      "category": "Caribbean / Ital restaurant",
+      "website": "https://allnationsveganhouse.yolasite.com/",
+      "lat": 51.5636,
+      "lng": -0.0745,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://allnationsveganhouse.yolasite.com/"
+      ],
+      "map_note": "Family-run Ital restaurant described as vegan in the 2026 guide. Check current service and opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "gleaners-community-cafe",
+      "name": "The Gleaners Community Café",
+      "instagram": "hornbeamcentre",
+      "region": "East",
+      "neighbourhood": "Walthamstow",
+      "address": "The Hornbeam Centre, 458 Hoe Street, London E17 9AH",
+      "vegan_status": "Vegan café",
+      "category": "Community café",
+      "website": "https://hornbeam.org.uk/gleaners-cafe",
+      "lat": 51.5888,
+      "lng": -0.019,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://hornbeam.org.uk/gleaners-cafe"
+      ],
+      "map_note": "Community café at the Hornbeam Centre, described as vegan in the 2026 guide. Check its service days before visiting.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "tofu-vegan-islington",
+      "name": "Tofu Vegan — Islington",
+      "instagram": "tofuveganlondon",
+      "region": "North",
+      "neighbourhood": "Islington",
+      "address": "105 Upper Street, London N1 1QN",
+      "vegan_status": "Fully vegan",
+      "category": "Chinese restaurant",
+      "website": "https://tofuvegan.com/",
+      "lat": 51.5354,
+      "lng": -0.1035,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://tofuvegan.com/contact"
+      ],
+      "map_note": "Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "tofu-vegan-golders-green",
+      "name": "Tofu Vegan — Golders Green",
+      "instagram": "tofuveganlondon",
+      "region": "North",
+      "neighbourhood": "Golders Green",
+      "address": "28 North End Road, London NW11 7PT",
+      "vegan_status": "Fully vegan",
+      "category": "Chinese restaurant",
+      "website": "https://tofuvegan.com/",
+      "lat": 51.5762,
+      "lng": -0.1945,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://tofuvegan.com/contact"
+      ],
+      "map_note": "Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "tofu-vegan-charlotte-street",
+      "name": "Tofu Vegan — Charlotte Street",
+      "instagram": "tofuveganlondon",
+      "region": "Central",
+      "neighbourhood": "Fitzrovia",
+      "address": "32 Charlotte Street, London W1T 2NQ",
+      "vegan_status": "Fully vegan",
+      "category": "Chinese restaurant",
+      "website": "https://tofuvegan.com/",
+      "lat": 51.5196,
+      "lng": -0.1356,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://tofuvegan.com/contact"
+      ],
+      "map_note": "Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "tofu-vegan-gloucester-road",
+      "name": "Tofu Vegan — Gloucester Road",
+      "instagram": "tofuveganlondon",
+      "region": "West",
+      "neighbourhood": "South Kensington",
+      "address": "29 Gloucester Road, London SW7 4PL",
+      "vegan_status": "Fully vegan",
+      "category": "Chinese restaurant",
+      "website": "https://tofuvegan.com/",
+      "lat": 51.4947,
+      "lng": -0.1831,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://tofuvegan.com/contact"
+      ],
+      "map_note": "Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "tofu-vegan-strand",
+      "name": "Tofu Vegan — Strand",
+      "instagram": "tofuveganlondon",
+      "region": "Central",
+      "neighbourhood": "Strand",
+      "address": "397 Strand, London WC2R 0LP",
+      "vegan_status": "Fully vegan",
+      "category": "Chinese restaurant",
+      "website": "https://tofuvegan.com/",
+      "lat": 51.5107,
+      "lng": -0.1196,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://tofuvegan.com/contact"
+      ],
+      "map_note": "New Strand branch listed on the restaurant group website in November 2026. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "beza-ethiopian",
+      "name": "Beza",
+      "instagram": "bezaethio",
+      "region": "South",
+      "neighbourhood": "Elephant and Castle",
+      "address": "8A Sayer Street, London SE17 1FH",
+      "vegan_status": "Fully vegan",
+      "category": "Ethiopian restaurant",
+      "website": null,
+      "lat": 51.492,
+      "lng": -0.0963,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
+      ],
+      "map_note": "Ethiopian restaurant described as having an entirely vegan menu in the 2026 guide. Check current trading details directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "addis-vegan-kitchen",
+      "name": "Addis Vegan Kitchen",
+      "instagram": null,
+      "region": "South",
+      "neighbourhood": "Old Kent Road",
+      "address": "244 Old Kent Road, London SE1 5UB",
+      "vegan_status": "Fully vegan",
+      "category": "Ethiopian restaurant",
+      "website": null,
+      "lat": 51.489231,
+      "lng": -0.07922,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
+      ],
+      "map_note": "Ethiopian restaurant described as having an entirely vegan menu in the 2026 guide. Check current trading details directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "gauthier-soho",
+      "name": "Gauthier Soho",
+      "instagram": "gauthiersoho",
+      "region": "Central",
+      "neighbourhood": "Soho",
+      "address": "21 Romilly Street, London W1D 5AF",
+      "vegan_status": "Fully plant-based",
+      "category": "French fine dining",
+      "website": "https://www.gauthiersoho.co.uk/",
+      "lat": 51.51281,
+      "lng": -0.131484,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://www.gauthiersoho.co.uk/"
+      ],
+      "map_note": "Plant-based tasting-menu restaurant listed in the 2026 guide. Check current opening and menu details directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "123v-browns",
+      "name": "123V Browns",
+      "instagram": "123vegan_w1",
+      "region": "Central",
+      "neighbourhood": "Mayfair",
+      "address": "39 Brook Street, London W1K 4JE",
+      "vegan_status": "Plant-based menu",
+      "category": "Japanese / sushi",
+      "website": "https://123vegan.co.uk/",
+      "lat": 51.5121,
+      "lng": -0.1494,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://123vegan.co.uk/"
+      ],
+      "map_note": "Plant-based sushi and restaurant listing in the 2026 guide. Check current opening and menu details directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "vantra",
+      "name": "Vantra",
+      "instagram": "vantra",
+      "region": "Central",
+      "neighbourhood": "Soho",
+      "address": "5 Wardour Street, London W1D 6PB",
+      "vegan_status": "Fully vegan",
+      "category": "Plant-based restaurant / buffet",
+      "website": "https://www.vantra.co.uk/",
+      "lat": 51.5107,
+      "lng": -0.1319,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://www.vantra.co.uk/"
+      ],
+      "map_note": "Long-running plant-based restaurant listed in the 2026 guide. Check current opening and menu details directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "veg-box-cafe",
+      "name": "The Veg Box Café",
+      "instagram": "thevegboxcafe",
+      "region": "Central",
+      "neighbourhood": "Marylebone",
+      "address": "136 Marylebone Road, London NW1 5PH",
+      "vegan_status": "Fully vegan",
+      "category": "Café / restaurant",
+      "website": "https://thevegboxcafe.co.uk/",
+      "lat": 51.522333,
+      "lng": -0.158291,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://thevegboxcafe.co.uk/"
+      ],
+      "map_note": "Independent vegan café listed at this Marylebone address in the 2026 guide. Check current opening hours directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "kin-london",
+      "name": "KIN London",
+      "instagram": "kinlondon",
+      "region": "Central",
+      "neighbourhood": "Fitzrovia",
+      "address": "21a Foley Street, London W1W 6DS",
+      "vegan_status": "Plant-based restaurant",
+      "category": "Restaurant",
+      "website": "https://kinlondon.com/restaurant",
+      "lat": 51.5194,
+      "lng": -0.1403,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://kinlondon.com/restaurant"
+      ],
+      "map_note": "Plant-based restaurant listed in the 2026 guide. Distinct from KIN Café next door; check current menu and opening hours.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "the-gate-hammersmith",
+      "name": "The Gate — Hammersmith",
+      "instagram": "thegaterestaurants",
+      "region": "West",
+      "neighbourhood": "Hammersmith",
+      "address": "51 Queen Caroline Street, London W6 9QL",
+      "vegan_status": "Plant-based food menu",
+      "category": "Restaurant",
+      "website": "https://thegaterestaurants.com/",
+      "lat": 51.4916,
+      "lng": -0.2243,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://thegaterestaurants.com/"
+      ],
+      "map_note": "2026 guide describes the food menu as entirely plant-based. Check current branch details and menu directly.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
+    },
+    {
+      "id": "king-cookdaily-boxhall",
+      "name": "King CookDaily — Boxhall City",
+      "instagram": "cookdaily",
+      "region": "Central",
+      "neighbourhood": "Liverpool Street",
+      "address": "Boxhall City, 1–27 The Arcade, Liverpool Street, London EC2M 7PN",
+      "vegan_status": "Plant-based",
+      "category": "Vegan street food",
+      "website": null,
+      "lat": 51.51725,
+      "lng": -0.08235,
+      "source_urls": [
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
+      ],
+      "map_note": "Plant-based trader at Boxhall Liverpool Street, listed in the 2026 guide. Pin is offset slightly from other Boxhall traders for visibility; check current trading days.",
+      "status": "listed",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "verification_note": "Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.",
+      "coordinate_note": "Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling."
     }
   ],
   "suggestions": [
@@ -240,11 +701,13 @@
       "website": "https://www.loveshackldn.com/",
       "source_urls": [
         "https://www.vegan.london/listings/restaurants-cafes",
-        "https://www.loveshackldn.com/"
+        "https://www.loveshackldn.com/",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Address from the venue listing; check current opening and food offer.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Address from the venue listing; check current opening and food offer."
+      "map_note": "Address from the venue listing; check current opening and food offer.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-mandalacafeldn",
@@ -368,11 +831,13 @@
       "category": "Sichuan restaurant",
       "website": null,
       "source_urls": [
-        "https://nuff.london/places/facing-heaven/"
+        "https://nuff.london/places/facing-heaven/",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Source describes a completely vegan offering; check current opening hours.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Source describes a completely vegan offering; check current opening hours."
+      "map_note": "Source describes a completely vegan offering; check current opening hours.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-carbclub--",
@@ -410,11 +875,13 @@
       "category": "Café",
       "website": "https://theblackcatcafe.co.uk/",
       "source_urls": [
-        "https://www.vegan.london/listings/restaurants-cafes"
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Check current opening details.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Check current opening details."
+      "map_note": "Check current opening details.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-wearewaveldn",
@@ -432,11 +899,13 @@
       "website": "https://www.weareveganeverything.com/",
       "source_urls": [
         "https://www.weareveganeverything.com/legal",
-        "https://www.vegan.london/listings/restaurants-cafes"
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "A second listing has also been reported at 1A Evering Road; check the business for its current location.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "A second listing has also been reported at 1A Evering Road; check the business for its current location."
+      "map_note": "A second listing has also been reported at 1A Evering Road; check the business for its current location.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-merkamo-ethiopian",
@@ -561,11 +1030,13 @@
       "category": "Pub",
       "website": "https://thespreadeaglelondon.co.uk/",
       "source_urls": [
-        "https://www.vegan.london/listings/restaurants-cafes"
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Check current opening and food service.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Check current opening and food service."
+      "map_note": "Check current opening and food service.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-lds-kitchen",
@@ -646,11 +1117,13 @@
       "category": "Caribbean restaurant",
       "website": "https://jamdelish.co.uk/",
       "source_urls": [
-        "https://www.vegan.london/listings/restaurants-cafes"
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Check current opening details.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Check current opening details."
+      "map_note": "Check current opening details.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-itadakizen-london",
@@ -689,11 +1162,13 @@
       "category": "Thai restaurant",
       "website": "https://plantsofroselyn.com/",
       "source_urls": [
-        "https://plantsofroselyn.com/"
+        "https://plantsofroselyn.com/",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Official site confirms the Tooley Street address.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Official site confirms the Tooley Street address."
+      "map_note": "Official site confirms the Tooley Street address.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-tofuveganlondon",
@@ -711,11 +1186,13 @@
       "website": "https://tofuvegan.co.uk/",
       "source_urls": [
         "https://tofuvegan.co.uk/",
-        "https://tofuvegan.co.uk/contact"
+        "https://tofuvegan.co.uk/contact",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Representative branch pin only. Tofu Vegan lists several London branches; check its website for the branch nearest you.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Representative branch pin only. Tofu Vegan lists several London branches; check its website for the branch nearest you."
+      "map_note": "Representative branch pin only. Tofu Vegan lists several London branches; check its website for the branch nearest you.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-studiogauthierldn",
@@ -732,11 +1209,13 @@
       "category": "Restaurant / sushi",
       "website": "https://www.studiogauthier.co.uk/",
       "source_urls": [
-        "https://www.vegan.london/listings/restaurants-cafes"
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Check current opening and menu details.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Check current opening and menu details."
+      "map_note": "Check current opening and menu details.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-theafterschoolcookieclub",
@@ -796,11 +1275,13 @@
       "category": "Sandwich shop",
       "website": null,
       "source_urls": [
-        "https://www.timeout.com/london/news/coven-of-wiches-brixton-082126"
+        "https://www.timeout.com/london/news/coven-of-wiches-brixton-082126",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Reported as newly opened in Brixton Market Row in August 2026; previously operated in Walthamstow.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Reported as newly opened in Brixton Market Row in August 2026; previously operated in Walthamstow."
+      "map_note": "Reported as newly opened in Brixton Market Row in August 2026; previously operated in Walthamstow.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-fedbyplantsuk",
@@ -840,11 +1321,13 @@
       "website": "https://ooweevegan.com/locations/brixton/",
       "source_urls": [
         "https://ooweevegan.com/locations/brixton/",
-        "https://brixtonvillage.com/trader/oowee/"
+        "https://brixtonvillage.com/trader/oowee/",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Official location page confirms the Brixton Village address.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Official location page confirms the Brixton Village address."
+      "map_note": "Official location page confirms the Brixton Village address.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-enrootldn",
@@ -861,11 +1344,13 @@
       "category": "Indian-inspired restaurant",
       "website": "https://enrootldn.squarespace.com/",
       "source_urls": [
-        "https://enrootldn.squarespace.com/"
+        "https://enrootldn.squarespace.com/",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/"
       ],
       "note": "Representative branch pin. The business has also listed Clapham and a Brixton Ritzy location; check its website for current locations.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Representative branch pin. The business has also listed Clapham and a Brixton Ritzy location; check its website for current locations."
+      "map_note": "Representative branch pin. The business has also listed Clapham and a Brixton Ritzy location; check its website for current locations.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-buddha-taste",
@@ -916,20 +1401,24 @@
       "region": "West",
       "status": "listed",
       "asterisk_in_original_list": false,
-      "name": "Mali Thai",
+      "name": "Mali Vegan Thai",
       "neighbourhood": "Earl's Court",
       "address": "5a Hogarth Place, London SW5 0QT",
       "lat": 51.492,
       "lng": -0.192,
-      "vegan_status": "Vegan",
+      "vegan_status": "Fully vegan",
       "category": "Thai restaurant",
       "website": "https://malivegan.co.uk/",
       "source_urls": [
-        "https://www.vegan.london/listings/restaurants-cafes"
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/",
+        "https://malivegan.co.uk/"
       ],
       "note": "Check current opening details.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
-      "map_note": "Check current opening details."
+      "map_note": "Fully vegan Thai restaurant listed in the 2026 guide. Check current opening hours directly.",
+      "verification_note": "Included as a fully vegan Thai restaurant in the 2026 London vegan dining guide; not independently audited by this community guide.",
+      "checked_at": "2026-11-18"
     },
     {
       "id": "suggestion-suveganbuffet",

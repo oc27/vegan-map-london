@@ -43,7 +43,7 @@ function renderList() {
     const isAccount = v.listType === "account";
     const name = v.name || `@${v.instagram}`;
     const sub = `${v.neighbourhood || v.region}${v.category ? ` · ${v.category}` : isAccount ? ' · Community listing' : ''}`;
-    const links = `<a href="${instagramUrl(v.instagram)}" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>${v.website ? `<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a>` : ""}`;
+    const links = `${v.instagram ? `<a href="${instagramUrl(v.instagram)}" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>` : ""}${v.website ? `<a href="${escapeHtml(v.website)}" target="_blank" rel="noopener noreferrer">WEBSITE ↗</a>` : ""}`;
     const address = v.address ? `<p class="card-address">${escapeHtml(v.address)}</p>` : "";
     const tag = hasCoordinates(v) ? "PINNED" : "LISTED";
     return `<article class="venue-card ${activeId===v.id?"selected":""}" tabindex="0" data-id="${escapeHtml(v.id)}">
@@ -77,7 +77,7 @@ function makePopup(venue) {
     ${venue.address ? `<div>${escapeHtml(venue.address)}</div>` : ""}
     <div class="popup-muted">${escapeHtml(venue.vegan_status || "Community listing")} · ${escapeHtml(venue.category || "Listing")}</div>
     <p>${escapeHtml(description)}</p>
-    <div><a href="${instagramUrl(venue.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>${venue.website ? ` · <a href="${escapeHtml(venue.website)}" target="_blank" rel="noopener noreferrer">Website ↗</a>` : ""}</div>
+    <div>${venue.instagram ? `<a href="${instagramUrl(venue.instagram)}" target="_blank" rel="noopener noreferrer">Instagram ↗</a>` : ""}${venue.instagram && venue.website ? " · " : ""}${venue.website ? `<a href="${escapeHtml(venue.website)}" target="_blank" rel="noopener noreferrer">Website ↗</a>` : ""}</div>
     ${sourceLinks ? `<small>${sourceLinks}</small>` : ""}
     <p class="popup-disclaimer">Guide only — please check details with the venue before visiting. Pin positions are approximate.</p>`;
 }

@@ -1,7 +1,23 @@
 LONDON VEGAN PLACES — DATA SOURCES AND MAP NOTES
 Updated: 18 November 2026
 
-The original 8 venue records and 36 Instagram account records have been retained. Public sources were used to add names, addresses, business descriptions and approximate map positions where possible. Links are stored on each individual listing in data/venues.json.
+Additional 2026 research:
+- https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/ (updated 22 September 2026; 39-place London guide)
+- https://www.timeout.com/london/restaurants/the-best-vegan-restaurants-in-london (updated 22 September 2026)
+- https://thatsup.co.uk/london/guide/guide-to-londons-best-vegan-restaurants (updated 30 October 2026)
+- https://tofuvegan.com/contact (official current branch addresses)
+- https://hornbeam.org.uk/gleaners-cafe (The Gleaners Community Café)
+- https://www.templeofseitan.co.uk/ (Temple of Seitan)
+- https://www.thefieldsbeneath.com/ (The Fields Beneath)
+- https://www.gauthiersoho.co.uk/ (Gauthier Soho)
+- https://123vegan.co.uk/ (123V Browns)
+- https://www.vantra.co.uk/ (Vantra)
+- https://thevegboxcafe.co.uk/ (The Veg Box Café)
+- https://kinlondon.com/restaurant (KIN London)
+- https://thegaterestaurants.com/ (The Gate)
+- https://malivegan.co.uk/ (Mali Vegan Thai)
+
+The original 8 venue records and 36 Instagram account records have been retained, with 20 additional restaurant/café listings added from 2026 guides and venue location pages. Public sources were used to add names, addresses, business descriptions and approximate map positions where possible. Links are stored on each individual listing in data/venues.json.
 
 Useful directory and address sources consulted:
 - https://www.vegan.london/listings/restaurants-cafes
@@ -31,8 +47,8 @@ Useful directory and address sources consulted:
 - https://www.tripadvisor.co.uk/Restaurant_Review-g186338-d8499752-Reviews-Su_Vegan_Buffet_was_Tai_Buffet-London_England.html
 
 Map methodology and caveats:
-- All 44 entries have a latitude and longitude and therefore appear as map pins.
-- Coordinates are approximate street/neighbourhood positions, not surveyed entrance coordinates. Do not rely on them for precise navigation.
+- All 64 entries have a latitude and longitude and therefore appear as map pins.
+- Coordinates are approximate postcode/street/neighbourhood positions, not surveyed entrance coordinates. Newly added coordinates may be postcode-centre estimates rather than exact premises locations. Do not rely on them for precise navigation.
 - Some businesses operate multiple branches. Where the listing represents a brand rather than one branch, one representative London branch is pinned and the popup says so.
 - Some entries are temporary/mobile/pop-up listings. Fed By Plants is marked at Windrush Square based on recent 2026 posts; check the Instagram account for current trading location.
 - Chickenish and LD's Kitchen are pinned at their reported Saint Monday residency; check current residency/service dates.

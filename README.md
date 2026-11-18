@@ -4,8 +4,8 @@ A standalone, static, mobile-friendly London vegan and vegan-friendly places gui
 
 ## What's included
 
-- The original 43 Instagram seed accounts, retained in `data/venues.json`
-- All 44 seed-list entries have approximate map coordinates and are shown as pins
+- The original Instagram seed accounts, retained in `data/venues.json`
+- The original 44 seed-list entries are retained, with 20 additional places found in current 2026 London vegan dining guides; all 64 records have approximate map coordinates and appear as pins
 - All 36 additional Instagram accounts enriched with a name, address or clearly labelled approximate/pop-up location, and map coordinates
 - Search, London region filters, mapped-place/account filters and venue detail popups
 - Leaflet map with OpenStreetMap tiles
@@ -17,7 +17,7 @@ A standalone, static, mobile-friendly London vegan and vegan-friendly places gui
 
 This is a community-maintained guide, not an independently verified directory or an endorsement of any business. Listings may be incomplete or out of date. Visitors should check business status, address, opening hours and vegan options directly with each venue before visiting. Corrections and additions are welcome.
 
-All seed accounts remain visible in the directory. All 44 entries are displayed as map pins. Some represent a current pop-up/residency, one representative branch of a multi-site business, or a broad approximate location where the original account did not provide a fixed address. Every coordinate is approximate and should be checked directly before travelling. One seed entry (Carb Club) is a creative workshop listing rather than a food venue; it is retained because it appeared in the source list and is labelled accordingly.
+All seed accounts remain visible in the directory. The expanded dataset contains 64 entries, all displayed as map pins. Some represent a current pop-up/residency, one representative branch of a multi-site business, or a broad approximate location where the original account did not provide a fixed address. Every coordinate is approximate and should be checked directly before travelling. One seed entry (Carb Club) is a creative workshop listing rather than a food venue; it is retained because it appeared in the source list and is labelled accordingly.
 
 ## Run locally
 

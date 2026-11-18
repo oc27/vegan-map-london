@@ -1,6 +1,6 @@
 {
   "title": "London Vegan Places",
-  "description": "A community-maintained guide to vegan and vegan-friendly places to eat in London. Please check details directly with each venue before visiting.",
+  "description": "A community-maintained guide to vegan and vegan-friendly places across London. Please check details directly with each venue before visiting. Community suggestions and corrections are welcome through the feedback form.",
   "last_reviewed": "2026-11-18",
   "verification_policy": "Community guide only. Listings and details may change. All map positions are approximate; some entries are pop-ups, residencies, representative branches or community listings. Check each listing directly before travelling.",
   "verified_venues": [
@@ -1441,6 +1441,30 @@
       "note": "Check directly whether the buffet is still operating and whether its menu remains fully vegan.",
       "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
       "map_note": "Check directly whether the buffet is still operating and whether its menu remains fully vegan."
+    },
+    {
+      "id": "indian-veg-angel",
+      "name": "Indian Veg",
+      "instagram": "indianveg",
+      "region": "North",
+      "neighbourhood": "Angel / Islington",
+      "address": "92–93 Chapel Market, London N1 9EX",
+      "vegan_status": "Vegetarian; most buffet dishes are vegan",
+      "category": "Indian restaurant / buffet",
+      "status": "listed",
+      "website": "https://theindianveg.wordpress.com/",
+      "source_urls": [
+        "https://www.instagram.com/indianveg/?hl=en",
+        "https://thatsup.co.uk/london/restaurant/indian-veg",
+        "https://theindianveg.wordpress.com/contact/",
+        "https://www.twoveg.uk/indian-veg/index.html"
+      ],
+      "note": "A long-running vegetarian buffet. Sources report that most of the buffet is vegan, but not every dish is; ask staff about ingredients and check current options.",
+      "checked_at": "2026-11-18",
+      "asterisk_in_original_list": false,
+      "lat": 51.5327,
+      "lng": -0.1065,
+      "coordinate_note": "Approximate street-level position for Chapel Market; confirm the exact entrance before travelling."
     }
   ],
   "seed_account_count": 43,

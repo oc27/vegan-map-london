@@ -58,3 +58,9 @@ Map methodology and caveats:
 Map rendering:
 - Coordinates are bundled in data/venues.json. The browser does not geocode addresses or call Nominatim.
 - Leaflet and OpenStreetMap tiles still require an internet connection.
+
+Indian Veg (added 18 November 2026)
+- Instagram supplied for this listing: https://www.instagram.com/indianveg/?hl=en
+- Address and vegetarian buffet details: https://thatsup.co.uk/london/restaurant/indian-veg and https://theindianveg.wordpress.com/contact/
+- Vegan status note: twoVeg reports that most buffet dishes are vegan, but the restaurant is vegetarian rather than fully vegan: https://www.twoveg.uk/indian-veg/index.html
+- Map position is approximate street-level placement for 92–93 Chapel Market, N1 9EX.

@@ -1,0 +1,62 @@
+import json, os
+p='/mnt/data/veganupdate/data/venues.json'
+with open(p, encoding='utf-8') as f: data=json.load(f)
+article='https://www.veganfoodandliving.com/features/best-vegan-restaurants-london/'
+timeout='https://www.timeout.com/london/restaurants/the-best-vegan-restaurants-in-london'
+# Additions are from current 2026 editorial guides and/or the venue's own location page.
+# Coordinates are approximate postcode/neighbourhood positions, not surveyed entrances.
+new=[
+ dict(id='temple-of-seitan-camden',name='Temple of Seitan — Camden',instagram='templeofseitan',region='North',neighbourhood='Camden',address='43 Parkway, Camden, London NW1 7PN',vegan_status='Fully vegan',category='Restaurant / takeaway',website='https://www.templeofseitan.co.uk/',lat=51.53819,lng=-0.14417,source_urls=[article,'https://www.templeofseitan.co.uk/'],map_note='Fully vegan venue listed in the 2026 London vegan guide. Check current service and opening hours directly.'),
+ dict(id='temple-of-seitan-hackney',name='Temple of Seitan — Hackney',instagram='templeofseitan',region='East',neighbourhood='Hackney',address='10 Morning Lane, London E9 6NA',vegan_status='Fully vegan',category='Restaurant / takeaway',website='https://www.templeofseitan.co.uk/',lat=51.5464,lng=-0.0550,source_urls=[article,'https://www.templeofseitan.co.uk/'],map_note='Second London location listed in the 2026 London vegan guide. Check current service and opening hours directly.'),
+ dict(id='the-fields-beneath',name='The Fields Beneath',instagram='thefieldsbeneath',region='North',neighbourhood='Kentish Town',address='52a Prince of Wales Road, Kentish Town, London NW5 3LN',vegan_status='Fully plant-based',category='Café',website='https://thefieldsbeneath.com/',lat=51.5505,lng=-0.1420,source_urls=[article,'https://thefieldsbeneath.com/'],map_note='Community café described as completely plant-based in the 2026 guide. Check current opening hours directly.'),
+ dict(id='andu-ethiopian-vegan-cafe',name='Andu Ethiopian Vegan Café',instagram='anducafe',region='East',neighbourhood='Dalston',address='528 Kingsland Road, London E8 4AH',vegan_status='Fully vegan',category='Ethiopian restaurant',website=None,lat=51.545214,lng=-0.075510,source_urls=[article,timeout,'https://thatsup.co.uk/london/restaurant/andu-ethiopian-vegan-cafe'],map_note='2026 guides describe Andu as serving completely vegan Ethiopian food. Check current opening hours directly.'),
+ dict(id='all-nations-vegan-house',name='All Nations Vegan House',instagram='allnationsveganhouse',region='East',neighbourhood='Stoke Newington',address='41 Stoke Newington High Street, London N16 8DR',vegan_status='Fully vegan',category='Caribbean / Ital restaurant',website='https://allnationsveganhouse.yolasite.com/',lat=51.5636,lng=-0.0745,source_urls=[article,'https://allnationsveganhouse.yolasite.com/'],map_note='Family-run Ital restaurant described as vegan in the 2026 guide. Check current service and opening hours directly.'),
+ dict(id='gleaners-community-cafe',name='The Gleaners Community Café',instagram='hornbeamcentre',region='East',neighbourhood='Walthamstow',address='The Hornbeam Centre, 458 Hoe Street, London E17 9AH',vegan_status='Vegan café',category='Community café',website='https://hornbeam.org.uk/gleaners-cafe',lat=51.5888,lng=-0.0190,source_urls=[article,'https://hornbeam.org.uk/gleaners-cafe'],map_note='Community café at the Hornbeam Centre, described as vegan in the 2026 guide. Check its service days before visiting.'),
+ dict(id='tofu-vegan-islington',name='Tofu Vegan — Islington',instagram='tofuveganlondon',region='North',neighbourhood='Islington',address='105 Upper Street, London N1 1QN',vegan_status='Fully vegan',category='Chinese restaurant',website='https://tofuvegan.com/',lat=51.5354,lng=-0.1035,source_urls=[article,'https://tofuvegan.com/contact'],map_note='Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.'),
+ dict(id='tofu-vegan-golders-green',name='Tofu Vegan — Golders Green',instagram='tofuveganlondon',region='North',neighbourhood='Golders Green',address='28 North End Road, London NW11 7PT',vegan_status='Fully vegan',category='Chinese restaurant',website='https://tofuvegan.com/',lat=51.5762,lng=-0.1945,source_urls=[article,'https://tofuvegan.com/contact'],map_note='Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.'),
+ dict(id='tofu-vegan-charlotte-street',name='Tofu Vegan — Charlotte Street',instagram='tofuveganlondon',region='Central',neighbourhood='Fitzrovia',address='32 Charlotte Street, London W1T 2NQ',vegan_status='Fully vegan',category='Chinese restaurant',website='https://tofuvegan.com/',lat=51.5196,lng=-0.1356,source_urls=[article,'https://tofuvegan.com/contact'],map_note='Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.'),
+ dict(id='tofu-vegan-gloucester-road',name='Tofu Vegan — Gloucester Road',instagram='tofuveganlondon',region='West',neighbourhood='South Kensington',address='29 Gloucester Road, London SW7 4PL',vegan_status='Fully vegan',category='Chinese restaurant',website='https://tofuvegan.com/',lat=51.4947,lng=-0.1831,source_urls=[article,'https://tofuvegan.com/contact'],map_note='Branch address and vegan menu listed on the restaurant group website. Check current opening hours directly.'),
+ dict(id='tofu-vegan-strand',name='Tofu Vegan — Strand',instagram='tofuveganlondon',region='Central',neighbourhood='Strand',address='397 Strand, London WC2R 0LP',vegan_status='Fully vegan',category='Chinese restaurant',website='https://tofuvegan.com/',lat=51.5107,lng=-0.1196,source_urls=[article,'https://tofuvegan.com/contact'],map_note='New Strand branch listed on the restaurant group website in November 2026. Check current opening hours directly.'),
+ dict(id='beza-ethiopian',name='Beza',instagram='bezaethio',region='South',neighbourhood='Elephant and Castle',address='8A Sayer Street, London SE17 1FH',vegan_status='Fully vegan',category='Ethiopian restaurant',website=None,lat=51.4920,lng=-0.0963,source_urls=[article],map_note='Ethiopian restaurant described as having an entirely vegan menu in the 2026 guide. Check current trading details directly.'),
+ dict(id='addis-vegan-kitchen',name='Addis Vegan Kitchen',instagram=None,region='South',neighbourhood='Old Kent Road',address='244 Old Kent Road, London SE1 5UB',vegan_status='Fully vegan',category='Ethiopian restaurant',website=None,lat=51.489231,lng=-0.079220,source_urls=[article],map_note='Ethiopian restaurant described as having an entirely vegan menu in the 2026 guide. Check current trading details directly.'),
+ dict(id='gauthier-soho',name='Gauthier Soho',instagram='gauthiersoho',region='Central',neighbourhood='Soho',address='21 Romilly Street, London W1D 5AF',vegan_status='Fully plant-based',category='French fine dining',website='https://www.gauthiersoho.co.uk/',lat=51.51281,lng=-0.131484,source_urls=[article,'https://www.gauthiersoho.co.uk/'],map_note='Plant-based tasting-menu restaurant listed in the 2026 guide. Check current opening and menu details directly.'),
+ dict(id='123v-browns',name='123V Browns',instagram='123vegan_w1',region='Central',neighbourhood='Mayfair',address='39 Brook Street, London W1K 4JE',vegan_status='Plant-based menu',category='Japanese / sushi',website='https://123vegan.co.uk/',lat=51.5121,lng=-0.1494,source_urls=[article,'https://123vegan.co.uk/'],map_note='Plant-based sushi and restaurant listing in the 2026 guide. Check current opening and menu details directly.'),
+ dict(id='vantra',name='Vantra',instagram='vantra',region='Central',neighbourhood='Soho',address='5 Wardour Street, London W1D 6PB',vegan_status='Fully vegan',category='Plant-based restaurant / buffet',website='https://www.vantra.co.uk/',lat=51.5107,lng=-0.1319,source_urls=[article,'https://www.vantra.co.uk/'],map_note='Long-running plant-based restaurant listed in the 2026 guide. Check current opening and menu details directly.'),
+ dict(id='veg-box-cafe',name='The Veg Box Café',instagram='thevegboxcafe',region='Central',neighbourhood='Marylebone',address='136 Marylebone Road, London NW1 5PH',vegan_status='Fully vegan',category='Café / restaurant',website='https://thevegboxcafe.co.uk/',lat=51.522333,lng=-0.158291,source_urls=[article,'https://thevegboxcafe.co.uk/'],map_note='Independent vegan café listed at this Marylebone address in the 2026 guide. Check current opening hours directly.'),
+ dict(id='kin-london',name='KIN London',instagram='kinlondon',region='Central',neighbourhood='Fitzrovia',address='21a Foley Street, London W1W 6DS',vegan_status='Plant-based restaurant',category='Restaurant',website='https://kinlondon.com/restaurant',lat=51.5194,lng=-0.1403,source_urls=[article,'https://kinlondon.com/restaurant'],map_note='Plant-based restaurant listed in the 2026 guide. Distinct from KIN Café next door; check current menu and opening hours.'),
+ dict(id='the-gate-hammersmith',name='The Gate — Hammersmith',instagram='thegaterestaurants',region='West',neighbourhood='Hammersmith',address='51 Queen Caroline Street, London W6 9QL',vegan_status='Plant-based food menu',category='Restaurant',website='https://thegaterestaurants.com/',lat=51.4916,lng=-0.2243,source_urls=[article,'https://thegaterestaurants.com/'],map_note='2026 guide describes the food menu as entirely plant-based. Check current branch details and menu directly.'),
+ dict(id='king-cookdaily-boxhall',name='King CookDaily — Boxhall City',instagram='cookdaily',region='Central',neighbourhood='Liverpool Street',address='Boxhall City, 1–27 The Arcade, Liverpool Street, London EC2M 7PN',vegan_status='Plant-based',category='Vegan street food',website=None,lat=51.51725,lng=-0.08235,source_urls=[article],map_note='Plant-based trader at Boxhall Liverpool Street, listed in the 2026 guide. Pin is offset slightly from other Boxhall traders for visibility; check current trading days.'),
+]
+existing_ids={v['id'] for v in data['verified_venues']+data['suggestions']}
+existing_names={v.get('name','').strip().lower() for v in data['verified_venues']+data['suggestions']}
+added=[]
+for v in new:
+    if v['id'] in existing_ids or v['name'].strip().lower() in existing_names:
+        continue
+    v.update({
+      'status':'listed', 'checked_at':'2026-11-18', 'asterisk_in_original_list':False,
+      'verification_note':'Included in a current 2026 London vegan dining guide and/or the venue’s own location listing; not independently audited by this community guide.',
+      'coordinate_note':'Approximate postcode/street-level map position, not a surveyed entrance coordinate. Check the venue directly before travelling.'
+    })
+    data['verified_venues'].append(v)
+    added.append(v['name'])
+    existing_ids.add(v['id']); existing_names.add(v['name'].strip().lower())
+# Bring the existing Mali listing into line with its current name and a recent guide.
+for v in data['suggestions']:
+    if v.get('id')=='suggestion-mali-vegan':
+        v['name']='Mali Vegan Thai'
+        v['vegan_status']='Fully vegan'
+        v['source_urls']=list(dict.fromkeys((v.get('source_urls') or [])+[article,'https://malivegan.co.uk/']))
+        v['verification_note']='Included as a fully vegan Thai restaurant in the 2026 London vegan dining guide; not independently audited by this community guide.'
+        v['checked_at']='2026-11-18'
+        v['map_note']='Fully vegan Thai restaurant listed in the 2026 guide. Check current opening hours directly.'
+        break
+# Add source notes and refresh counts/date.
+data['last_reviewed']='2026-11-18'
+data['description']='A community-maintained guide to vegan and vegan-friendly places to eat in London. Please check details directly with each venue before visiting.'
+data['verification_policy']='Community guide only. Listings and details may change. All map positions are approximate; some entries are pop-ups, residencies, representative branches or community listings. Check each listing directly before travelling.'
+data['seed_account_count']=data.get('seed_account_count',36)
+with open(p,'w',encoding='utf-8') as f: json.dump(data,f,ensure_ascii=False,indent=2); f.write('\n')
+print('Added',len(added),added)
+print('Total records',len(data['verified_venues'])+len(data['suggestions']))
+print('Mapped',sum(1 for v in data['verified_venues']+data['suggestions'] if isinstance(v.get('lat'),(int,float)) and isinstance(v.get('lng'),(int,float))))

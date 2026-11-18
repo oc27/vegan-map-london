@@ -49,7 +49,7 @@
         <div id="venue-list" class="venue-list" aria-live="polite"></div>
         <div class="method-note">
           <strong>ABOUT THE MAP PINS</strong>
-          <p>All 44 seed-list entries have a map position. Some pins represent a pop-up, residency, representative branch or approximate area rather than a confirmed front door. Check each listing directly before travelling.</p>
+          <p>All listed entries have a map position. Some pins represent a pop-up, residency, representative branch or approximate area rather than a confirmed front door. Check each listing directly before travelling.</p>
           <a href="#about">More about this project ↓</a>
         </div>
       </aside>
@@ -63,12 +63,52 @@
       </section>
     </section>
 
+
+    <section id="contribute" class="contribute">
+      <div class="contribute-intro">
+        <p class="eyebrow">COMMUNITY INPUT · HELP US IMPROVE</p>
+        <h2>Help make this map great.</h2>
+        <p>Would you like a place added, or a listing changed, or any other ideas on how to make this map great, use the form below.</p>
+      </div>
+      <form class="contribute-form" action="https://formspree.io/f/xjywylwv" method="POST">
+        <input type="hidden" name="_subject" value="London Vegan Places — map feedback">
+        <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-field">
+          <label for="contribution-type">WHAT IS THIS ABOUT?</label>
+          <select id="contribution-type" name="Contribution type" required>
+            <option value="">Choose one…</option>
+            <option>Suggest a place to add</option>
+            <option>Change or correct a listing</option>
+            <option>Report a closure</option>
+            <option>Share an idea for the map</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="contribution-message">YOUR SUGGESTION OR UPDATE</label>
+          <textarea id="contribution-message" name="Message" rows="5" placeholder="Tell us the place, what needs changing, or your idea…" required></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="contribution-name">YOUR NAME <span>(OPTIONAL)</span></label>
+            <input id="contribution-name" type="text" name="Name" autocomplete="name" placeholder="Name">
+          </div>
+          <div class="form-field">
+            <label for="contribution-email">EMAIL <span>(OPTIONAL)</span></label>
+            <input id="contribution-email" type="email" name="_replyto" autocomplete="email" placeholder="you@example.com">
+          </div>
+        </div>
+        <button type="submit" class="submit-button">SEND SUGGESTION ↗</button>
+        <p class="form-footnote">Your details are only used to follow up on your contribution. Please don’t include sensitive personal information.</p>
+      </form>
+    </section>
+
     <section id="about" class="about">
       <p class="eyebrow">OPEN DATA · COMMUNITY MAINTAINED</p>
       <h2>A directory that gets better<br>when people contribute.</h2>
       <div class="about-grid">
         <p>This project starts with a community seed list of London food businesses and Instagram accounts. It is intended as a useful starting point for discovering places, not as an endorsement or a guarantee of current details.</p>
-        <p>Found a mistake, closure, new branch or missing place? Please check details directly with the venue before travelling, and contribute corrections or additions through the project repository. We want this guide to grow through shared local knowledge.</p>
+        <p>Found a mistake, closure, new branch or missing place? Please check details directly with the venue before travelling, and contribute corrections or additions through the project repository. We want this guide to grow through shared local knowledge. Use the feedback form below to suggest a new place, correct a listing or share an idea.</p>
       </div>
       <p class="smallprint">Map data © OpenStreetMap contributors. Map tiles are provided by OpenStreetMap. Venue details and map positions are a snapshot and may be approximate or out of date. Please check with each venue before visiting.</p>
     </section>

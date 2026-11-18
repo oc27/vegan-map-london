@@ -1,0 +1,34 @@
+
+name: Geocode map locations
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  geocode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Geocode venue addresses
+        run: python scripts/geocode_venues.py
+
+      - name: Commit updated coordinates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/venues.json .geocode-cache.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update venue coordinates"
+            git push
+          fi

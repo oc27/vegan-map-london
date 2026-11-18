@@ -1,45 +1,44 @@
-Initial source notes for the eight venues with map pins — 18 November 2026
+LONDON VEGAN PLACES — DATA SOURCES AND MAP NOTES
+Updated: 18 November 2026
 
-E3 Vegan
-https://www.e3vegan.com/
-Official site: 357 Roman Road; current café and evening service.
+The original 8 venue records and 36 Instagram account records have been retained. Public sources were used to add names, addresses, business descriptions and approximate map positions where possible. Links are stored on each individual listing in data/venues.json.
 
-Mildreds Camden
-https://www.mildreds.com/camden/
-Official branch page: 9 Jamestown Road; fully plant-based menu and opening hours.
+Useful directory and address sources consulted:
+- https://www.vegan.london/listings/restaurants-cafes
+- https://www.veganlondon.co.uk/recommendations.html
+- https://www.weareveganeverything.com/legal
+- https://nuff.london/places/facing-heaven/
+- https://www.senvietchay.co.uk/
+- https://www.beatenbyawhisker.com/faqs
+- https://www.theafterschoolcookieclub.com/
+- https://www.ooweevegan.com/locations/brixton/
+- https://brixtonvillage.com/trader/oowee/
+- https://www.buddhataste.co.uk/contact-us
+- https://www.kegarmo.co.uk/
+- https://tofuvegan.co.uk/contact
+- https://plantsofroselyn.com/
+- https://enrootldn.squarespace.com/
+- https://www.purezza.co.uk/
+- https://www.timeout.com/london/news/coven-of-wiches-brixton-082126
+- https://www.londondine.co.uk/1019232844767416/Fed-By-Plants
+- https://www.coinstreet.org/shop-eat-drink/fed-plants
+- https://www.happycow.net/reviews/the-hogless-roast-east-london-224353?page=1
+- https://www.tripadvisor.co.uk/Restaurant_Review-g186338-d23118819-Reviews-The_Hogless_Roast-London_England.html
+- https://www.eventbrite.com/e/cosmic-connections-tickets-1991579006420
+- https://www.findglocal.com/GB/London/100390001919043/Chickenish
+- https://uk.indeed.com/viewjob?jk=ee720af6ca882a32
+- https://london.cylex-uk.co.uk/company/su-vegan-buffet-28779218.html
+- https://www.tripadvisor.co.uk/Restaurant_Review-g186338-d8499752-Reviews-Su_Vegan_Buffet_was_Tai_Buffet-London_England.html
 
-Club Mexicana Mayfair
-https://www.clubmexicana.com/locations/mayfair/
-Official location page: St Mark's Church, North Audley Street; opening hours.
+Map methodology and caveats:
+- All 44 entries have a latitude and longitude and therefore appear as map pins.
+- Coordinates are approximate street/neighbourhood positions, not surveyed entrance coordinates. Do not rely on them for precise navigation.
+- Some businesses operate multiple branches. Where the listing represents a brand rather than one branch, one representative London branch is pinned and the popup says so.
+- Some entries are temporary/mobile/pop-up listings. Fed By Plants is marked at Windrush Square based on recent 2026 posts; check the Instagram account for current trading location.
+- Chickenish and LD's Kitchen are pinned at their reported Saint Monday residency; check current residency/service dates.
+- Carb Club appeared in the source list but is a creative workshop listing rather than a food venue. It is retained and clearly labelled as such rather than silently removed.
+- Vegan status and operating details may change. This is a community guide, not an independently verified directory or endorsement. Visitors should check directly with each venue before visiting.
 
-Club Mexicana (general locations)
-https://clubmexicana.com/
-Official website lists Mayfair and Boxhall City; describes food as zero meat / 100% plant-based.
-
-Mallow
-https://mallowlondon.com/find-us/
-Official find-us page: 1 Cathedral Street, Borough Market; opening hours.
-
-Unity Diner
-https://www.unitydiner.co.uk/contact
-Official contact page: 60 Wentworth Street; opening hours.
-
-Unity Diner vegan status
-https://www.unitydiner.co.uk/faq
-Official FAQ confirms 100% vegan.
-
-Dauns
-https://dauns.co.uk/contact/
-Official contact page: 77 Wentworth Street; current opening hours.
-
-Dauns vegan status
-https://dauns.co.uk/
-Official site describes it as a fully vegan Scandinavian-inspired café/deli.
-
-Plates
-https://plates-london.com/contact/
-Official contact page: 320 Old Street.
-
-Plates plant-based status/current bookings
-https://plates-london.com/plant-based-restaurant-london/
-Official restaurant page: current booking information and plant-based food ethos.
+Map rendering:
+- Coordinates are bundled in data/venues.json. The browser does not geocode addresses or call Nominatim.
+- Leaflet and OpenStreetMap tiles still require an internet connection.

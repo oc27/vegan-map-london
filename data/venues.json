@@ -2,7 +2,7 @@
   "title": "London Vegan Places",
   "description": "A community-maintained guide to vegan and vegan-friendly places in London. Please check details directly with each venue before visiting.",
   "last_reviewed": "2026-11-18",
-  "verification_policy": "This is a guide, not an independently verified directory. Listed accounts and venue details may change. Only records with a usable address and coordinates appear as map pins; map positions are approximate. Visitors should check details directly with each venue before visiting.",
+  "verification_policy": "Community guide only. Listings and details may change. All map positions are approximate; some entries are pop-ups, residencies, representative branches or community listings. Check each listing directly before travelling.",
   "verified_venues": [
     {
       "id": "e3-vegan",
@@ -185,252 +185,773 @@
       "instagram": "beanandfriendsltd",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Bean's Café",
+      "neighbourhood": "Hackney Downs",
+      "address": "Unit 2, 1 Maple Path, London E5 8FB",
+      "lat": 51.5571,
+      "lng": -0.0573,
+      "vegan_status": "Vegan",
+      "category": "Café",
+      "website": null,
+      "source_urls": [
+        "https://www.eventbrite.com/e/cosmic-connections-tickets-1991579006420",
+        "https://restaurantguru.com/Beans-Cafe-London"
+      ],
+      "note": "Address listed for Bean’s Café; check current trading details before visiting.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Address listed for Bean’s Café; check current trading details before visiting."
     },
     {
       "id": "suggestion-the-gallery-cafe",
       "instagram": "the.gallery.cafe",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "The Gallery Café",
+      "neighbourhood": "Bethnal Green",
+      "address": "21 Old Ford Road, London E2 9PL",
+      "lat": 51.5274,
+      "lng": -0.053,
+      "vegan_status": "Vegetarian café with vegan options",
+      "category": "Café",
+      "website": "https://www.stmargaretshouse.org.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://restaurantguru.com/The-Gallery-Cafe-London"
+      ],
+      "note": "The source describes an all-vegan menu; check directly for current menu details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "The source describes an all-vegan menu; check directly for current menu details."
     },
     {
       "id": "suggestion-loveshack-ldn",
       "instagram": "loveshack_ldn",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Love Shack",
+      "neighbourhood": "Cambridge Heath",
+      "address": "Arch 298–299, Cambridge Heath Road, London E2 9HA",
+      "lat": 51.5312,
+      "lng": -0.057,
+      "vegan_status": "Vegan-friendly listing",
+      "category": "Café / bar",
+      "website": "https://www.loveshackldn.com/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.loveshackldn.com/"
+      ],
+      "note": "Address from the venue listing; check current opening and food offer.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Address from the venue listing; check current opening and food offer."
     },
     {
       "id": "suggestion-mandalacafeldn",
       "instagram": "mandalacafeldn",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "MaNDALA Café",
+      "neighbourhood": "Bethnal Green",
+      "address": "241–243 Globe Road, London E2 0JD",
+      "lat": 51.526,
+      "lng": -0.0472,
+      "vegan_status": "Vegan-friendly listing",
+      "category": "Community café",
+      "website": null,
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Listed as a non-profit café; check current opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Listed as a non-profit café; check current opening details."
     },
     {
       "id": "suggestion-geckocoffeehouse",
       "instagram": "geckocoffeehouse",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Gecko Coffeehouse",
+      "neighbourhood": "Shoreditch",
+      "address": "49 Bethnal Green Road, London E1 6LA",
+      "lat": 51.524,
+      "lng": -0.0752,
+      "vegan_status": "Fully plant-based menu (reported)",
+      "category": "Coffeehouse",
+      "website": "https://geckocoffee.house/",
+      "source_urls": [
+        "https://filter.coffee/shop/gecko-coffeehouse",
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Map position approximate; check current menu and hours.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Map position approximate; check current menu and hours."
     },
     {
       "id": "suggestion-jungle-electric",
       "instagram": "jungle.electric",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Jungle Electric",
+      "neighbourhood": "Bow",
+      "address": "467 Roman Road, London E3 5LX",
+      "lat": 51.532,
+      "lng": -0.0352,
+      "vegan_status": "Vegan-friendly listing",
+      "category": "Coffee shop",
+      "website": "https://www.jungleelectric.co.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current opening and food offer.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening and food offer."
     },
     {
       "id": "suggestion-thirdculturedeli",
       "instagram": "thirdculturedeli",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Third Culture Deli",
+      "neighbourhood": "London Fields",
+      "address": "29 Broadway Market, London E8 4PH",
+      "lat": 51.536,
+      "lng": -0.0614,
+      "vegan_status": "Vegan-friendly listing",
+      "category": "Deli / café",
+      "website": "https://thirdculturedeli.com/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current menu and opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current menu and opening details."
     },
     {
       "id": "suggestion-chicken-ish",
       "instagram": "chicken_ish",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Chickenish",
+      "neighbourhood": "London Fields",
+      "address": "Saint Monday, 4 Warburton Road, London E8 3RR",
+      "lat": 51.534,
+      "lng": -0.061,
+      "vegan_status": "Plant-based",
+      "category": "Food residency",
+      "website": null,
+      "source_urls": [
+        "https://uk.indeed.com/viewjob?jk=ee720af6ca882a32",
+        "https://www.findglocal.com/GB/London/100390001919043/Chickenish"
+      ],
+      "note": "Reported residency at Saint Monday from September 2026; check current service dates.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Reported residency at Saint Monday from September 2026; check current service dates."
     },
     {
       "id": "suggestion-facingheaven",
       "instagram": "facingheaven",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Facing Heaven",
+      "neighbourhood": "London Fields",
+      "address": "1a Bayford Street, London E8 3SE",
+      "lat": 51.541,
+      "lng": -0.059,
+      "vegan_status": "Fully vegan",
+      "category": "Sichuan restaurant",
+      "website": null,
+      "source_urls": [
+        "https://nuff.london/places/facing-heaven/"
+      ],
+      "note": "Source describes a completely vegan offering; check current opening hours.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Source describes a completely vegan offering; check current opening hours."
     },
     {
       "id": "suggestion-carbclub--",
       "instagram": "carbclub__",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Carb Club",
+      "neighbourhood": "Lower Clapton",
+      "address": "112 Warwick Works, Downs Road, London E5 8QJ",
+      "lat": 51.5574,
+      "lng": -0.0593,
+      "vegan_status": "Not a food venue",
+      "category": "Creative workshops",
+      "website": "https://www.carbclub.co/",
+      "source_urls": [
+        "https://static1.squarespace.com/static/61f16ff40805f578f7b7bc07/t/64106de2ec11993e48362b04/1678798335496/Carb%2BClub%2BPYOP%2BWorkshops%2B%281%29.pdf"
+      ],
+      "note": "Included because it was in the seed list; this is a creative workshop listing, not a vegan restaurant.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Included because it was in the seed list; this is a creative workshop listing, not a vegan restaurant."
     },
     {
       "id": "suggestion-blackcathackney",
       "instagram": "blackcathackney",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Black Cat Café",
+      "neighbourhood": "Lower Clapton",
+      "address": "76A Clarence Road, London E5 8HB",
+      "lat": 51.5513,
+      "lng": -0.058,
+      "vegan_status": "Fully vegan",
+      "category": "Café",
+      "website": "https://theblackcatcafe.co.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening details."
     },
     {
       "id": "suggestion-wearewaveldn",
       "instagram": "wearewaveldn",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "WAVE — We Are Vegan Everything",
+      "neighbourhood": "Hackney Central",
+      "address": "11 Dispensary Lane, London E8 1FT",
+      "lat": 51.5462,
+      "lng": -0.056,
+      "vegan_status": "Vegan",
+      "category": "Bakery / café",
+      "website": "https://www.weareveganeverything.com/",
+      "source_urls": [
+        "https://www.weareveganeverything.com/legal",
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "A second listing has also been reported at 1A Evering Road; check the business for its current location.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "A second listing has also been reported at 1A Evering Road; check the business for its current location."
     },
     {
       "id": "suggestion-merkamo-ethiopian",
       "instagram": "merkamo.ethiopian",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Merkamo",
+      "neighbourhood": "Spitalfields",
+      "address": "42 Hanbury Street, London E1 5JL",
+      "lat": 51.5203,
+      "lng": -0.0741,
+      "vegan_status": "Vegetarian / vegan options",
+      "category": "Ethiopian",
+      "website": "https://merkamo.co.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://restaurantguru.com/Merkamo-Ethiopian-London"
+      ],
+      "note": "Listings describe a vegetarian menu with vegan options; check directly.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Listings describe a vegetarian menu with vegan options; check directly."
     },
     {
       "id": "suggestion-mukbap-ldn",
       "instagram": "mukbap_ldn",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Mukbap",
+      "neighbourhood": "Shoreditch",
+      "address": "91 Worship Street, London EC2A 2BG",
+      "lat": 51.5234,
+      "lng": -0.085,
+      "vegan_status": "Vegan-friendly listing",
+      "category": "Korean",
+      "website": null,
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current menu and opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current menu and opening details."
     },
     {
       "id": "suggestion-senvietchay",
       "instagram": "senvietchay",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Sen Viet Vegan Restaurant",
+      "neighbourhood": "Hoxton",
+      "address": "120 Kingsland Road, London E2 8DP",
+      "lat": 51.5301,
+      "lng": -0.077,
+      "vegan_status": "Fully vegan",
+      "category": "Vietnamese",
+      "website": "https://www.senvietchay.co.uk/",
+      "source_urls": [
+        "https://www.senvietchay.co.uk/"
+      ],
+      "note": "Official site describes the restaurant as 100% vegan.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Official site describes the restaurant as 100% vegan."
     },
     {
       "id": "suggestion-thehoglessroast",
       "instagram": "thehoglessroast",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "The Hogless Roast",
+      "neighbourhood": "Walthamstow",
+      "address": "CRATE, 35 St James Street, London E17 7FY",
+      "lat": 51.582,
+      "lng": -0.0203,
+      "vegan_status": "Fully vegan",
+      "category": "Fast food / roast",
+      "website": null,
+      "source_urls": [
+        "https://www.happycow.net/reviews/the-hogless-roast-east-london-224353?page=1",
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g186338-d23118819-Reviews-The_Hogless_Roast-London_England.html"
+      ],
+      "note": "Reported at CRATE, Walthamstow; check current trading location.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Reported at CRATE, Walthamstow; check current trading location."
     },
     {
       "id": "suggestion-beatenbyawhisker",
       "instagram": "beatenbyawhisker",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Beaten by a Whisker",
+      "neighbourhood": "Walthamstow",
+      "address": "Unit 3, 5a Old Brewery Way, London E17 7FJ",
+      "lat": 51.5825,
+      "lng": -0.02,
+      "vegan_status": "Fully vegan bakery",
+      "category": "Bakery",
+      "website": "https://www.beatenbyawhisker.com/",
+      "source_urls": [
+        "https://www.beatenbyawhisker.com/faqs",
+        "https://cinnamap.com/spots/beaten-by-a-whisker-walthamstow-london"
+      ],
+      "note": "The bakery states it is entirely vegan.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "The bakery states it is entirely vegan."
     },
     {
       "id": "suggestion-thespreadeaglelondon",
       "instagram": "thespreadeaglelondon",
       "region": "East",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "The Spread Eagle",
+      "neighbourhood": "Homerton",
+      "address": "224 Homerton High Street, London E9 6AS",
+      "lat": 51.549,
+      "lng": -0.042,
+      "vegan_status": "Fully vegan pub",
+      "category": "Pub",
+      "website": "https://thespreadeaglelondon.co.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current opening and food service.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening and food service."
     },
     {
       "id": "suggestion-lds-kitchen",
       "instagram": "lds.kitchen",
       "region": "North",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "LD's Kitchen",
+      "neighbourhood": "London Fields",
+      "address": "Saint Monday, 4 Warburton Road, London E8 3RR",
+      "lat": 51.5341,
+      "lng": -0.0612,
+      "vegan_status": "Vegan-friendly listing",
+      "category": "Food residency / kitchen",
+      "website": null,
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Also listed at The Black Heart, 2–3 Greenland Place, NW1 0AP. Pin marks the Saint Monday listing; check current residency.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Also listed at The Black Heart, 2–3 Greenland Place, NW1 0AP. Pin marks the Saint Monday listing; check current residency."
     },
     {
       "id": "suggestion-purezza",
       "instagram": "purezza",
       "region": "North",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Purezza Camden",
+      "neighbourhood": "Camden",
+      "address": "45–47 Parkway, London NW1 7PN",
+      "lat": 51.537,
+      "lng": -0.1433,
+      "vegan_status": "Fully vegan",
+      "category": "Pizzeria",
+      "website": "https://purezza.co.uk/",
+      "source_urls": [
+        "https://purezza.thegoodhostingcompany.uk/locations/camden/"
+      ],
+      "note": "Official location page confirms the Camden address and vegan restaurant.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Official location page confirms the Camden address and vegan restaurant."
     },
     {
       "id": "suggestion-veganplanetcamden",
       "instagram": "veganplanetcamden",
       "region": "North",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Vegan Planet",
+      "neighbourhood": "Camden",
+      "address": "11–13 Parkway, London NW1 7PG",
+      "lat": 51.5374,
+      "lng": -0.143,
+      "vegan_status": "Vegan",
+      "category": "Restaurant",
+      "website": null,
+      "source_urls": [
+        "https://ratings.food.gov.uk/business/1453214/vegan-planet",
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Address confirmed in Camden public food-hygiene listing; check current menu.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Address confirmed in Camden public food-hygiene listing; check current menu."
     },
     {
       "id": "suggestion-jam-delish",
       "instagram": "jam.delish",
       "region": "North",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Jam Delish",
+      "neighbourhood": "Islington",
+      "address": "1 Tolpuddle Street, London N1 0XT",
+      "lat": 51.5343,
+      "lng": -0.1053,
+      "vegan_status": "Vegan",
+      "category": "Caribbean restaurant",
+      "website": "https://jamdelish.co.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening details."
     },
     {
       "id": "suggestion-itadakizen-london",
       "instagram": "itadakizen.london",
       "region": "North",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Itadaki Zen",
+      "neighbourhood": "King's Cross",
+      "address": "139 King's Cross Road, London WC1X 9BJ",
+      "lat": 51.5293,
+      "lng": -0.116,
+      "vegan_status": "Fully vegan",
+      "category": "Japanese restaurant",
+      "website": null,
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes",
+        "https://www.veganlondon.co.uk/recommendations.html"
+      ],
+      "note": "Check current opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening details."
     },
     {
       "id": "suggestion-plantsofroselyn",
       "instagram": "plantsofroselyn",
       "region": "Central",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Plants of Roselyn",
+      "neighbourhood": "London Bridge",
+      "address": "102 Tooley Street, London SE1 2TH",
+      "lat": 51.5036,
+      "lng": -0.0827,
+      "vegan_status": "Plant-based",
+      "category": "Thai restaurant",
+      "website": "https://plantsofroselyn.com/",
+      "source_urls": [
+        "https://plantsofroselyn.com/"
+      ],
+      "note": "Official site confirms the Tooley Street address.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Official site confirms the Tooley Street address."
     },
     {
       "id": "suggestion-tofuveganlondon",
       "instagram": "tofuveganlondon",
       "region": "Central",
       "status": "listed",
-      "asterisk_in_original_list": true
+      "asterisk_in_original_list": true,
+      "name": "Tofu Vegan — Spitalfields",
+      "neighbourhood": "Spitalfields",
+      "address": "54 Commercial Street, London E1 6LT",
+      "lat": 51.517,
+      "lng": -0.072,
+      "vegan_status": "Fully plant-based",
+      "category": "Chinese restaurant",
+      "website": "https://tofuvegan.co.uk/",
+      "source_urls": [
+        "https://tofuvegan.co.uk/",
+        "https://tofuvegan.co.uk/contact"
+      ],
+      "note": "Representative branch pin only. Tofu Vegan lists several London branches; check its website for the branch nearest you.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Representative branch pin only. Tofu Vegan lists several London branches; check its website for the branch nearest you."
     },
     {
       "id": "suggestion-studiogauthierldn",
       "instagram": "studiogauthierldn",
       "region": "Central",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Studio Gauthier",
+      "neighbourhood": "Fitzrovia",
+      "address": "21 Stephen Street, London W1T 1LN",
+      "lat": 51.516,
+      "lng": -0.135,
+      "vegan_status": "Plant-based",
+      "category": "Restaurant / sushi",
+      "website": "https://www.studiogauthier.co.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current opening and menu details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening and menu details."
     },
     {
       "id": "suggestion-theafterschoolcookieclub",
       "instagram": "theafterschoolcookieclub",
       "region": "Central",
       "status": "listed",
-      "asterisk_in_original_list": true
+      "asterisk_in_original_list": true,
+      "name": "The After School Cookie Club",
+      "neighbourhood": "Mayfair",
+      "address": "1–2 Weighhouse Street, London W1K 5LR",
+      "lat": 51.5123,
+      "lng": -0.148,
+      "vegan_status": "Plant-based",
+      "category": "Bakery / cookies",
+      "website": "https://www.theafterschoolcookieclub.com/",
+      "source_urls": [
+        "https://www.theafterschoolcookieclub.com/",
+        "https://www.boxpark.co.uk/venues/shoreditch/food-and-drink/the-after-school-cookie-club-shoreditch"
+      ],
+      "note": "Representative bakery pin. The business lists multiple London locations; check its website for current branches.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Representative bakery pin. The business lists multiple London locations; check its website for current branches."
     },
     {
       "id": "suggestion-cream-dream-london",
       "instagram": "cream.dream_london",
       "region": "Central",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Cream Dream Café",
+      "neighbourhood": "Covent Garden",
+      "address": "46 Bedford Street, London WC2E 9HA",
+      "lat": 51.5112,
+      "lng": -0.1235,
+      "vegan_status": "Vegan desserts",
+      "category": "Dessert café",
+      "website": null,
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening details."
     },
     {
       "id": "suggestion-covenofwiches",
       "instagram": "covenofwiches",
       "region": "South",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Coven of Wiches",
+      "neighbourhood": "Brixton",
+      "address": "14D Market Row, London SW9 8LD",
+      "lat": 51.462,
+      "lng": -0.1132,
+      "vegan_status": "Plant-based",
+      "category": "Sandwich shop",
+      "website": null,
+      "source_urls": [
+        "https://www.timeout.com/london/news/coven-of-wiches-brixton-082126"
+      ],
+      "note": "Reported as newly opened in Brixton Market Row in August 2026; previously operated in Walthamstow.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Reported as newly opened in Brixton Market Row in August 2026; previously operated in Walthamstow."
     },
     {
       "id": "suggestion-fedbyplantsuk",
       "instagram": "fedbyplantsuk",
       "region": "South",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Fed By Plants — Windrush Square pop-up",
+      "neighbourhood": "Brixton",
+      "address": "Windrush Square, Brixton, London SW2",
+      "lat": 51.4617,
+      "lng": -0.1141,
+      "vegan_status": "Vegan",
+      "category": "Food truck / pop-up",
+      "website": "https://www.fedbyplantsuk.co.uk/",
+      "source_urls": [
+        "https://www.londondine.co.uk/1019232844767416/Fed-By-Plants",
+        "https://www.coinstreet.org/shop-eat-drink/fed-plants"
+      ],
+      "note": "Mobile/pop-up listing. Recent posts report trading at Windrush Square in Brixton after the former Gabriel’s Wharf café closed; check Instagram for current location.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Mobile/pop-up listing. Recent posts report trading at Windrush Square in Brixton after the former Gabriel’s Wharf café closed; check Instagram for current location."
     },
     {
       "id": "suggestion-oowee-vegan",
       "instagram": "oowee_vegan",
       "region": "South",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Oowee Vegan — Brixton",
+      "neighbourhood": "Brixton",
+      "address": "Units 91–92, Brixton Village Market, London SW9 8PR",
+      "lat": 51.4621,
+      "lng": -0.1138,
+      "vegan_status": "Fully vegan",
+      "category": "Fast food",
+      "website": "https://ooweevegan.com/locations/brixton/",
+      "source_urls": [
+        "https://ooweevegan.com/locations/brixton/",
+        "https://brixtonvillage.com/trader/oowee/"
+      ],
+      "note": "Official location page confirms the Brixton Village address.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Official location page confirms the Brixton Village address."
     },
     {
       "id": "suggestion-enrootldn",
       "instagram": "enrootldn",
       "region": "South",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "En Root — Peckham",
+      "neighbourhood": "Peckham",
+      "address": "28 Peckham Rye, London SE15 4JR",
+      "lat": 51.4691,
+      "lng": -0.069,
+      "vegan_status": "Plant-based",
+      "category": "Indian-inspired restaurant",
+      "website": "https://enrootldn.squarespace.com/",
+      "source_urls": [
+        "https://enrootldn.squarespace.com/"
+      ],
+      "note": "Representative branch pin. The business has also listed Clapham and a Brixton Ritzy location; check its website for current locations.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Representative branch pin. The business has also listed Clapham and a Brixton Ritzy location; check its website for current locations."
     },
     {
       "id": "suggestion-buddha-taste",
       "instagram": "buddha_taste",
       "region": "South",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Buddha Taste",
+      "neighbourhood": "Blackheath",
+      "address": "8 Royal Parade, Blackheath, London SE3 0TL",
+      "lat": 51.465,
+      "lng": 0.009,
+      "vegan_status": "Plant-based",
+      "category": "Vietnamese / Asian fusion",
+      "website": "https://www.buddhataste.co.uk/",
+      "source_urls": [
+        "https://www.buddhataste.co.uk/contact-us",
+        "https://www.buddhataste.co.uk/"
+      ],
+      "note": "Official website confirms the Blackheath address and plant-based cuisine.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Official website confirms the Blackheath address and plant-based cuisine."
     },
     {
       "id": "suggestion-kegarmo",
       "instagram": "kegarmo",
       "region": "South",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Kegarmo — Next Door Baker",
+      "neighbourhood": "Streatham",
+      "address": "84 Moyser Road, London SW16 6SQ",
+      "lat": 51.427,
+      "lng": -0.129,
+      "vegan_status": "100% plant-based bakes",
+      "category": "Bakery",
+      "website": "https://www.kegarmo.co.uk/",
+      "source_urls": [
+        "https://www.kegarmo.co.uk/"
+      ],
+      "note": "Official site lists Next Door Baker as its current retail location.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Official site lists Next Door Baker as its current retail location."
     },
     {
       "id": "suggestion-mali-vegan",
       "instagram": "mali.vegan",
       "region": "West",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Mali Thai",
+      "neighbourhood": "Earl's Court",
+      "address": "5a Hogarth Place, London SW5 0QT",
+      "lat": 51.492,
+      "lng": -0.192,
+      "vegan_status": "Vegan",
+      "category": "Thai restaurant",
+      "website": "https://malivegan.co.uk/",
+      "source_urls": [
+        "https://www.vegan.london/listings/restaurants-cafes"
+      ],
+      "note": "Check current opening details.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check current opening details."
     },
     {
       "id": "suggestion-suveganbuffet",
       "instagram": "suveganbuffet",
       "region": "West",
       "status": "listed",
-      "asterisk_in_original_list": false
+      "asterisk_in_original_list": false,
+      "name": "Su Vegan Buffet",
+      "neighbourhood": "Shepherd's Bush",
+      "address": "86 Uxbridge Road, London W12 8LR",
+      "lat": 51.505,
+      "lng": -0.224,
+      "vegan_status": "Vegan buffet (listing)",
+      "category": "Chinese / Asian buffet",
+      "website": "https://subuffet.co.uk/",
+      "source_urls": [
+        "https://london.cylex-uk.co.uk/company/su-vegan-buffet-28779218.html",
+        "https://www.tripadvisor.co.uk/Restaurant_Review-g186338-d8499752-Reviews-Su_Vegan_Buffet_was_Tai_Buffet-London_England.html"
+      ],
+      "note": "Check directly whether the buffet is still operating and whether its menu remains fully vegan.",
+      "coordinate_note": "Approximate map position, not a surveyed entrance coordinate. Check the venue directly before travelling.",
+      "map_note": "Check directly whether the buffet is still operating and whether its menu remains fully vegan."
     }
   ],
   "seed_account_count": 43,
